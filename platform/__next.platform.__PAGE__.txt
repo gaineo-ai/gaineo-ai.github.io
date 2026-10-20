@@ -1,0 +1,534 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/3727-02i72m06.js"
+3:I[42194,["$2"],"default"]
+4:I[5817,["$2"],"default"]
+b:"/_next/static/chunks/2vmo25ixizm2q.js"
+c:I[90973,["$2","$b"],"default"]
+13:"ViewportBoundary"
+14:I[13693,["$2"],"$13"]
+15:"MetadataBoundary"
+16:I[13693,["$2"],"$15"]
+17:"$Sreact.suspense"
+18:I[14017,["$2"],"IconMark"]
+:HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
+6:X
+9:X
+9:C
+d:Ta958,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+
+  <!-- NAV -->
+  <header>
+    <nav aria-label="Main" style="max-width: 1280px; margin: 0 auto; padding: 24px 36px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px">
+      <a href="/" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
+        <img src="/assets/brand-logo.png" alt="Gaineo" width="97" height="32" style="display: block">
+      </a>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
+        <a href="/">Home</a>
+        <a href="#top" aria-current="page" style="color: #ffffff">Platform</a>
+        <a href="/manifesto/">Manifesto</a>
+        <a href="/manifesto/#faq">FAQ</a>
+        <a href="/company/">Company</a>
+        <a href="#invite" style="background: #8052ff; color: #ffffff; padding: 14px 20px; border-radius: 24px">Get in touch</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- OPENING -->
+  <section id="top" aria-label="Capabilities" style="max-width: 1280px; margin: 0 auto; padding: 140px 36px 100px; box-sizing: border-box">
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">Platform</div>
+    <h1 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(46px, 6vw, 88px); line-height: 1.0; letter-spacing: -0.045em; max-width: 1080px; text-wrap: balance">One intelligence for every revenue seat.</h1>
+    <p style="margin: 32px 0 0; font-size: 22px; line-height: 1.45; font-weight: 300; letter-spacing: -0.01em; max-width: 720px">Gaineo works on top of the systems you already run, learns how your company wins, and puts the right next move in front of every team, from a rep's next call to the CRO's quarter.</p>
+    <div style="margin-top: 56px; display: flex; flex-wrap: wrap; gap: 14px">
+      <a href="#capabilities" style="display: inline-flex; align-items: center; gap: 12px; border: 1px solid #2a2a2a; border-radius: 24px; padding: 12px 18px; color: #ffffff; font-size: 14px"><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#9B7BFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #9B7BFF">Sales</span></span><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#2EC4A4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #2EC4A4">CSM</span></span></span><span style="color: #9a9a9a">RevSight</span></a>
+      <a href="#capabilities" style="display: inline-flex; align-items: center; gap: 12px; border: 1px solid #2a2a2a; border-radius: 24px; padding: 12px 18px; color: #ffffff; font-size: 14px"><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#FFB829" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #FFB829">Deal desk</span></span></span><span style="color: #9a9a9a">DealPro</span></a>
+      <a href="#capabilities" style="display: inline-flex; align-items: center; gap: 12px; border: 1px solid #2a2a2a; border-radius: 24px; padding: 12px 18px; color: #ffffff; font-size: 14px"><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#E650BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #E650BE">Leadership</span></span></span><span style="color: #9a9a9a">Revenue Command</span></a>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS: the stack builds from your systems up to your teams -->
+  <section id="how" aria-label="How it works" style="max-width: 1280px; margin: 0 auto; padding: 120px 36px; box-sizing: border-box; border-top: 1px solid #1c1c1c">
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">How it works</div>
+    <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(36px, 4vw, 58px); line-height: 1.06; letter-spacing: -0.04em; max-width: 1080px; text-wrap: balance">On top of your stack. Learning from every deal.</h2>
+    <div class="gx-grid2" style="margin-top: 16px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 64px; align-items: end">
+      <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd">Gaineo connects to the systems you already run and brings them together into one view of your revenue. <span class="gx-hl">It learns how your company wins from your own precedents, and turns that into guidance every team can act on.</span> Outcomes flow back in, so it gets wiser every quarter.</p>
+      <p style="margin: 24px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em">Your systems stay.<br>Your decisions get better.</p>
+    </div>
+    <div data-dc-ref="setStack" style="position: relative; margin-top: 64px">
+      <canvas class="gx-rail" data-dc-ref="setRail" aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 56px; height: 100%; display: block"></canvas>
+      <div class="gx-stackpad" style="padding-left: 80px; border-top: 1px solid #1f1f1f">
+      <div class="gx-layer gx-layerrow" data-dc-style="display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 20px 40px; align-items: start; padding: 30px 0; border-bottom: 1px solid #1f1f1f; opacity: {{o5}}; transform: translateY({{y5}}px)">
+        <div>
+          <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">05</div>
+          <div style="margin-top: 8px; font-size: 24px; letter-spacing: -0.02em; color: #ffffff">Your teams</div>
+          <div style="margin-top: 6px; font-size: 15px; font-weight: 300; color: #9a9a9a">A surface built for each job.</div>
+        </div>
+        <div class="gx-grid3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px">
+          <div style="border: 1px solid #2a2a2a; border-radius: 10px; padding: 16px 18px; background: #0a0a0a">
+            <div><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="11" height="11" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#9B7BFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 11px; color: #9B7BFF">Sales</span></span><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="11" height="11" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#2EC4A4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 11px; color: #2EC4A4">CSM</span></span></span></div>
+            <div style="margin-top: 8px; font-size: 19px; letter-spacing: -0.015em">RevSight</div>
+          </div>
+          <div style="border: 1px solid #2a2a2a; border-radius: 10px; padding: 16px 18px; background: #0a0a0a">
+            <div><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="11" height="11" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#FFB829" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 11px; color: #FFB829">Deal desk</span></span></span></div>
+            <div style="margin-top: 8px; font-size: 19px; letter-spacing: -0.015em">DealPro</div>
+          </div>
+          <div style="border: 1px solid #2a2a2a; border-radius: 10px; padding: 16px 18px; background: #0a0a0a">
+            <div><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="11" height="11" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#E650BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 11px; color: #E650BE">Leadership</span></span></span></div>
+            <div style="margin-top: 8px; font-size: 19px; letter-spacing: -0.015em">Revenue Command</div>
+          </div>
+        </div>
+      </div>
+      <div class="gx-layer gx-layerrow" data-dc-style="display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 20px 40px; align-items: start; padding: 30px 0; border-bottom: 1px solid #1f1f1f; opacity: {{o4}}; transform: translateY({{y4}}px)">
+        <div>
+          <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">04</div>
+          <div style="margin-top: 8px; font-size: 24px; letter-spacing: -0.02em; color: #ffffff">Guidance and action</div>
+          <div style="margin-top: 6px; font-size: 15px; font-weight: 300; color: #9a9a9a">Intelligence people can act on.</div>
+        </div>
+        <div class="gx-grid3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 28px">
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Forecast and gap to plan</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Across bookings, revenue and margin, with the confidence behind every number.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">The why, in plain language</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Every recommendation explained, so people can trust it and decide.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">The next move, on time</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Proactive guidance, routed to the people who make the call.</div>
+          </div>
+        </div>
+      </div>
+      <div class="gx-layer gx-layerrow" data-dc-style="display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 20px 40px; align-items: start; padding: 30px 0; border-bottom: 1px solid #1f1f1f; opacity: {{o3}}; transform: translateY({{y3}}px)">
+        <div>
+          <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">03</div>
+          <div style="margin-top: 8px; font-size: 24px; letter-spacing: -0.02em; color: #ffb829">Pattern intelligence</div>
+          <div style="margin-top: 6px; font-size: 15px; font-weight: 300; color: #9a9a9a">Learns how your company wins.</div>
+        </div>
+        <div class="gx-grid3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 28px">
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Understands every deal</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">What it takes to win, and the precedents it resembles.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Explores every path</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">The best version of a deal, and what-ifs for the whole portfolio.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Learns every quarter</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">From your own wins, losses and decisions. A decision asset that belongs to your company.</div>
+          </div>
+        </div>
+      </div>
+      <div class="gx-layer gx-layerrow" data-dc-style="display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 20px 40px; align-items: start; padding: 30px 0; border-bottom: 1px solid #1f1f1f; opacity: {{o2}}; transform: translateY({{y2}}px)">
+        <div>
+          <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">02</div>
+          <div style="margin-top: 8px; font-size: 24px; letter-spacing: -0.02em; color: #ffffff">One connected view</div>
+          <div style="margin-top: 6px; font-size: 15px; font-weight: 300; color: #9a9a9a">Your revenue as a whole, not in pieces.</div>
+        </div>
+        <div class="gx-grid3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 28px">
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Every revenue motion, related</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Deals, accounts, products and terms, seen as one whole.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Every signal, in context</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Engagement and buying signals tied to each deal, tracked over time.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Clean and governed</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Every deal counted once, and correctly, across your systems. Auditable and secure.</div>
+          </div>
+        </div>
+      </div>
+      <div class="gx-layer gx-layerrow" data-dc-style="display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 20px 40px; align-items: start; padding: 30px 0; border-bottom: 1px solid #1f1f1f; opacity: {{o1}}; transform: translateY({{y1}}px)">
+        <div>
+          <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">01</div>
+          <div style="margin-top: 8px; font-size: 24px; letter-spacing: -0.02em; color: #ffffff">Your stack</div>
+          <div style="margin-top: 6px; font-size: 15px; font-weight: 300; color: #9a9a9a">Kept, not replaced.</div>
+        </div>
+        <div class="gx-grid3" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 28px">
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">CRM and CPQ</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Where your deals and quotes live today.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Planning, ERP and billing</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">Plans, contracts, revenue and cost.</div>
+          </div>
+          <div style="border-top: 1px solid #2a2a2a; padding-top: 14px">
+            <div style="font-size: 17px; letter-spacing: -0.01em">Revenue signals</div>
+            <div style="margin-top: 6px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #a8a8a8">The activity and engagement your teams already generate.</div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <p class="gx-stackpad" style="margin: 20px 0 0; padding-left: 80px; font-size: 14px; color: #9a9a9a">Your data informs every recommendation. Every outcome teaches it something new.</p>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES BY PERSONA -->
+  <section id="capabilities" aria-label="Capabilities by persona" style="max-width: 1280px; margin: 0 auto; padding: 120px 36px 140px; box-sizing: border-box; border-top: 1px solid #1c1c1c">
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">Capabilities</div>
+    <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(36px, 4vw, 58px); line-height: 1.06; letter-spacing: -0.04em; max-width: 1080px; text-wrap: balance">Every seat gets its own surface. Every surface shares one truth.</h2>
+    <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 640px">The same intelligence, shaped for the way each function works. <span class="gx-hl">Each team sees its own objective, weighed against the portfolio's goals.</span></p>
+    <div role="group" aria-label="Choose a team" style="margin-top: 48px; display: flex; flex-wrap: wrap; gap: 12px">
+      <button type="button" class="gx-tab" data-dc-on="click:pick0" data-dc-style="display: flex; align-items: center; gap: 12px; background: {{tb0}}; border: 1px solid {{tc0}}; color: {{tt0}}; border-radius: 28px; padding: 12px 20px; min-height: 44px; font: inherit; font-size: 14px; cursor: pointer"><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#9B7BFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #9B7BFF">Sales</span></span><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#2EC4A4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #2EC4A4">CSM</span></span></span><span>RevSight</span></button>
+      <button type="button" class="gx-tab" data-dc-on="click:pick1" data-dc-style="display: flex; align-items: center; gap: 12px; background: {{tb1}}; border: 1px solid {{tc1}}; color: {{tt1}}; border-radius: 28px; padding: 12px 20px; min-height: 44px; font: inherit; font-size: 14px; cursor: pointer"><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#FFB829" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #FFB829">Deal desk</span></span></span><span>DealPro</span></button>
+      <button type="button" class="gx-tab" data-dc-on="click:pick2" data-dc-style="display: flex; align-items: center; gap: 12px; background: {{tb2}}; border: 1px solid {{tc2}}; color: {{tt2}}; border-radius: 28px; padding: 12px 20px; min-height: 44px; font: inherit; font-size: 14px; cursor: pointer"><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#E650BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #E650BE">Leadership</span></span></span><span>Revenue Command</span></button>
+    </div>
+      <div data-dc-if="on0">
+        <div style="margin-top: 48px">
+          <div class="gx-grid2" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 64px; align-items: end">
+            <div>
+              <div><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#9B7BFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #9B7BFF">Sales</span></span><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#2EC4A4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #2EC4A4">CSM</span></span></span></div>
+              <div style="margin-top: 12px; font-size: clamp(34px, 3.6vw, 52px); line-height: 1.05; letter-spacing: -0.04em">RevSight</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 18px"><p style="margin: 0; font-size: 22px; line-height: 1.35; font-weight: 300; letter-spacing: -0.015em; color: #d6d6d6"><span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9B7BFF; margin-bottom: 6px">Sales</span>“Close my deals this quarter, on terms that stick.”</p><p style="margin: 0; font-size: 22px; line-height: 1.35; font-weight: 300; letter-spacing: -0.015em; color: #d6d6d6"><span style="display: block; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #2EC4A4; margin-bottom: 6px">CSM</span>“Renew the base, stop the churn, grow the usage.”</p></div>
+          </div>
+          <div class="gx-grid3" style="margin-top: 36px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #9B7BFF">01</span><span style="color: #6a6a6a"> · </span><span style="color: #9B7BFF; text-transform: uppercase">Sales</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Your book, as value to grow</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Every open deal shown by what it is worth today, and the paths to more of it.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #9B7BFF">02</span><span style="color: #6a6a6a"> · </span><span style="color: #9B7BFF; text-transform: uppercase">Sales</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">A winning version of every deal</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">The moves most likely to turn this deal into a win.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #9B7BFF">03</span><span style="color: #6a6a6a"> · </span><span style="color: #9B7BFF; text-transform: uppercase">Sales</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Priorities that know your quarter</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Next moves ranked across your whole book toward your number, not one deal at a time.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #2EC4A4">04</span><span style="color: #6a6a6a"> · </span><span style="color: #2EC4A4; text-transform: uppercase">CSM</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Renewal health, early</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Risk on every renewal surfaced from usage, engagement and terms, while there is still time to act.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #2EC4A4">05</span><span style="color: #6a6a6a"> · </span><span style="color: #2EC4A4; text-transform: uppercase">CSM</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Expansion where it is real</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Accounts ready to grow, ranked by what they add to the quarter.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #2EC4A4">06</span><span style="color: #6a6a6a"> · </span><span style="color: #2EC4A4; text-transform: uppercase">CSM</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Concessions with a price tag</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">When a renewal needs a give, see what it costs before you offer it.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #9B7BFF">07</span><span style="color: #6a6a6a"> · </span><span style="color: #9B7BFF; text-transform: uppercase">Sales</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Coaching that stays private</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">See your own forecasting habits, like calling deals early, before the number rolls up.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #9B7BFF">08</span><span style="color: #6a6a6a"> · </span><span style="color: #9B7BFF; text-transform: uppercase">Managers</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">The why behind the team number</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">The gap explained by its drivers. No war room needed.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #9B7BFF">09</span><span style="color: #6a6a6a"> · </span><span style="color: #9B7BFF; text-transform: uppercase">Managers</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">A forecast that knows your team</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">A team forecast that accounts for each rep's track record.</div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div data-dc-if="on1">
+        <div style="margin-top: 48px">
+          <div class="gx-grid2" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 64px; align-items: end">
+            <div>
+              <div><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#FFB829" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #FFB829">Deal desk</span></span></span></div>
+              <div style="margin-top: 12px; font-size: clamp(34px, 3.6vw, 52px); line-height: 1.05; letter-spacing: -0.04em">DealPro</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 18px"><p style="margin: 0; font-size: 22px; line-height: 1.35; font-weight: 300; letter-spacing: -0.015em; color: #d6d6d6">“Clear every deal fast, without giving away margin.”</p></div>
+          </div>
+          <div class="gx-grid3" style="margin-top: 36px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #FFB829">01</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Margin held, deal won</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">A quote shaped to win and to protect margin, ready for your approval.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #FFB829">02</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">The smallest concession that still wins</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Know what each concession buys before you make it.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #FFB829">03</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Approvals that show the way through</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Which rule a deal hits, and exactly what would clear it.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #FFB829">04</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Test a policy before it ships</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">See a policy change's impact before it goes live.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #FFB829">05</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">A margin floor that holds</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Deals that would breach your margin floor are caught at approval, every time.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #FFB829">06</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Policy in plain language</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Describe a rule in your own words. It is live for every team in minutes.</div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div data-dc-if="on2">
+        <div style="margin-top: 48px">
+          <div class="gx-grid2" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 64px; align-items: end">
+            <div>
+              <div><span style="display: inline-flex; align-items: center; gap: 14px"><span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true" style="flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#E650BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; color: #E650BE">Leadership</span></span></span></div>
+              <div style="margin-top: 12px; font-size: clamp(34px, 3.6vw, 52px); line-height: 1.05; letter-spacing: -0.04em">Revenue Command</div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 18px"><p style="margin: 0; font-size: 22px; line-height: 1.35; font-weight: 300; letter-spacing: -0.015em; color: #d6d6d6">“Land the plan the board and investors expect, every quarter.”</p></div>
+          </div>
+          <div class="gx-grid3" style="margin-top: 36px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #E650BE">01</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">How we make this quarter</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Not just how far behind. The moves that close the gap, within your policies, routed to whoever can make them.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #E650BE">02</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">One number, three lenses</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Bookings, revenue and margin in one forecast, so the number Finance trusts and the number Sales runs are the same.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #E650BE">03</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Strategy that reaches every queue</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">An approved trade-off becomes recommended actions for every team, revisited as the quarter moves.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #E650BE">04</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">Ask the portfolio anything</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">“What if we held price across mid-market next quarter?” Answered with the impact in dollars.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #E650BE">05</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">See a fragile quarter early</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Where the quarter leans too hard on too few deals, before the board asks.</div>
+          </div>
+          <div class="gx-card" style="border: 1px solid #222222; border-radius: 12px; padding: 24px 24px 26px; background: #070707">
+            <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em"><span style="color: #E650BE">06</span></div>
+            <div style="margin-top: 14px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em">A decision asset that gets wiser</div>
+            <div style="margin-top: 10px; font-size: 16px; line-height: 1.55; font-weight: 300; color: #a8a8a8">Every decision your teams make is learned from. It belongs to your company, and it compounds.</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    <p style="margin: 64px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em">Every seat.<br>One course.</p>
+  </section>
+
+  <section id="invite" style="border-top: 1px solid #1c1c1c">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 36px; box-sizing: border-box">
+      <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">Your first flight</div>
+      <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(48px, 6.6vw, 96px); line-height: 0.98; letter-spacing: -0.04em; max-width: 1000px">See where your quarter could have landed.</h2>
+      <div style="margin-top: 48px; display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+        <a href="mailto:info@gaineo.ai?subject=Backtest%20request" style="background: #8052ff; color: #ffffff; font-size: 14px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; padding: 15px 22px; border-radius: 24px">Request a backtest</a>
+        <a href="/manifesto/" style="color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Read the manifesto →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background: #0b0b0d; border-top: 1px solid #1c1c1c; padding-top: 56px">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 40px 36px 48px; box-sizing: border-box">
+      <div style="font-weight: 400; font-size: clamp(56px, 9vw, 140px); line-height: 0.9; letter-spacing: -0.045em">Gain, with <span style="color: #8052ff">Gaineo.</span></div>
+      <div style="margin-top: 96px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; font-size: 14px; color: #9a9a9a">
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; font-weight: 600; font-size: 13px; letter-spacing: 0.025em; text-transform: uppercase">
+          <a href="/">Home</a>
+          <a href="#top">Platform</a>
+          <a href="/manifesto/">Manifesto</a>
+          <a href="/manifesto/#faq">FAQ</a>
+          <a href="/company/">Company</a>
+        </div>
+        <div style="font-weight: 300">548 Market St, San Francisco CA 94104 · <a href="mailto:info@gaineo.ai" style="color: #ffb829">info@gaineo.ai</a></div>
+      </div>
+      <div style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #1c1c1c; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 13px; color: #6a6a6a">
+        <a href="/" style="display: flex; line-height: 1"><img src="/assets/brand-logo.png" alt="Gaineo home" width="79" height="26" style="display: block"></a>
+        <span>© 2026 Gaineo. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+</div>e:T51b,body{margin:0;background:#000000}
+a{color:#9a9a9a;text-decoration:none}
+a:hover{color:#ffffff}
+::selection{background:#8052ff;color:#ffffff}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #ffb829;outline-offset:3px}
+summary{list-style:none;cursor:pointer}
+summary::-webkit-details-marker{display:none}
+details[open] .gx-plus{transform:rotate(45deg)}
+details[open] summary .gx-q{color:#ffb829}
+summary:hover .gx-q{color:#ffb829}
+@media (max-width: 900px){.gx-bg{opacity:0.4}.gx-grid3{grid-template-columns:minmax(0,1fr) !important}}
+@media (min-width: 901px) and (max-width: 1180px){.gx-grid3{grid-template-columns:repeat(2, minmax(0, 1fr)) !important}}
+.gx-hl{color:#ffffff;font-weight:400}
+@media (max-width: 900px){.gx-grid2{grid-template-columns:minmax(0,1fr) !important}}
+.gx-layer{transition:opacity 700ms ease, transform 700ms cubic-bezier(0.22,1,0.36,1)}
+.gx-tab{transition:color 250ms ease, border-color 250ms ease, background 250ms ease}
+.gx-tab:hover{color:#ffffff !important}
+.gx-card{transition:border-color 250ms ease, transform 250ms ease}
+.gx-card:hover{border-color:#3a3a3a !important;transform:translateY(-2px)}
+@media (max-width: 900px){.gx-layerrow{grid-template-columns:minmax(0,1fr) !important}.gx-rail{display:none}.gx-stackpad{padding-left:0 !important}}f:T15da,class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { tab: 0, lit: 0, mask: 0 };
+    this.P = ['155,123,255', '255,184,41', '46,196,164', '230,80,190'];
+    this.rail = { el: null, W: 0, H: 0, dpr: 1 };
+    this.stackEl = null;
+    this.raf = 0;
+    this.setRail = (el) => { this.rail.el = el; this.rail.W = 0; };
+    this.setStack = (el) => { this.stackEl = el; };
+    this.picks = [0, 1, 2].map((k) => () => this.setState({ tab: k }));
+    this.onResize = () => { this.rail.W = 0; };
+  }
+
+  componentDidMount() {
+    this.reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    window.addEventListener('resize', this.onResize);
+    const loop = (now) => {
+      this.reveal();
+      if (this.fit(this.rail)) this.drawRail(now);
+      this.raf = requestAnimationFrame(loop);
+    };
+    this.raf = requestAnimationFrame(loop);
+  }
+
+  componentWillUnmount() {
+    cancelAnimationFrame(this.raf);
+    window.removeEventListener('resize', this.onResize);
+  }
+
+  clamp(t) { return t < 0 ? 0 : t > 1 ? 1 : t; }
+
+  // desktop: the stack builds from the bottom layer up as it scrolls in; phone: each layer lights as it arrives
+  reveal() {
+    let mask = 31;
+    if (!this.reduce && this.stackEl) {
+      const vh = window.innerHeight || 800;
+      const rows = this.stackEl.querySelectorAll('.gx-layer');
+      if ((window.innerWidth || 1200) < 900) {
+        mask = 0;
+        rows.forEach((r, i) => { if (r.getBoundingClientRect().top < vh * 0.88) mask |= 1 << (rows.length - 1 - i); });
+      } else {
+        const r = this.stackEl.getBoundingClientRect();
+        const p = this.clamp((vh * 0.95 - r.top) / Math.max(1, r.height * 0.75));
+        mask = (1 << Math.round(p * 5)) - 1;
+      }
+    }
+    if (mask !== this.state.mask) this.setState({ mask: mask, lit: this.bits(mask) });
+  }
+
+  bits(m) { let c = 0; while (m) { c += m & 1; m >>= 1; } return c; }
+
+  fit(f) {
+    const el = f.el;
+    if (!el) return false;
+    const W = el.clientWidth, H = el.clientHeight;
+    if (!W || !H) return false;
+    if (W !== f.W || H !== f.H) {
+      f.W = W; f.H = H; f.dpr = Math.min(window.devicePixelRatio || 1, 2);
+      el.width = Math.round(W * f.dpr); el.height = Math.round(H * f.dpr);
+      f.g = el.getContext('2d');
+    }
+    return true;
+  }
+
+  // two streams on the rail: data rising into intelligence, outcomes returning to learning
+  drawRail(now) {
+    const f = this.rail, ctx = f.g, W = f.W, H = f.H, t = now / 1000;
+    ctx.setTransform(f.dpr, 0, 0, f.dpr, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    const top = 12, bot = H - 40;
+    const lit = this.state.lit / 5;
+    const upX = W * 0.32, dnX = W * 0.72;
+    const span = (bot - top);
+    const visTop = bot - span * lit;
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = 'rgba(255,184,41,0.25)';
+    ctx.beginPath(); ctx.moveTo(upX, bot); ctx.lineTo(upX, visTop); ctx.stroke();
+    ctx.strokeStyle = 'rgba(128,82,255,' + (0.3 * (lit >= 1 ? 1 : 0)) + ')';
+    ctx.beginPath(); ctx.moveTo(dnX, top); ctx.lineTo(dnX, bot); ctx.stroke();
+    // arrowheads
+    if (lit > 0.98) {
+      ctx.strokeStyle = 'rgba(255,184,41,0.8)'; ctx.lineWidth = 1.4;
+      ctx.beginPath(); ctx.moveTo(upX - 5, top + 7); ctx.lineTo(upX, top + 1); ctx.lineTo(upX + 5, top + 7); ctx.stroke();
+      ctx.strokeStyle = 'rgba(128,82,255,0.9)';
+      ctx.beginPath(); ctx.moveTo(dnX - 5, bot - 7); ctx.lineTo(dnX, bot - 1); ctx.lineTo(dnX + 5, bot - 7); ctx.stroke();
+    }
+    const dot = (x, y, col, a) => {
+      const g = ctx.createRadialGradient(x, y, 0, x, y, 9);
+      g.addColorStop(0, 'rgba(' + col + ',' + a + ')'); g.addColorStop(1, 'rgba(' + col + ',0)');
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, 9, 0, 6.283); ctx.fill();
+      ctx.fillStyle = 'rgba(' + col + ',' + Math.min(1, a + 0.2) + ')'; ctx.beginPath(); ctx.arc(x, y, 1.8, 0, 6.283); ctx.fill();
+    };
+    if (!this.reduce) {
+      for (let k = 0; k < 7; k++) {
+        const s = ((t * 0.09 + k / 7) % 1);
+        const y = bot - s * span;
+        if (y >= visTop) dot(upX, y, '255,184,41', 0.75);
+      }
+      if (lit > 0.98) {
+        for (let k = 0; k < 4; k++) {
+          const s = ((t * 0.06 + k / 4) % 1);
+          dot(dnX, top + s * span, '128,82,255', 0.7);
+        }
+      }
+    }
+    // labels, set vertically
+    ctx.save();
+    ctx.font = '600 10px "Onest", system-ui, sans-serif';
+    ctx.fillStyle = 'rgba(154,154,154,0.85)';
+    ctx.translate(upX - 10, bot - 6); ctx.rotate(-Math.PI / 2); ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+    ctx.fillText('DATA', 0, 0);
+    ctx.restore();
+    if (lit > 0.98) {
+      ctx.save();
+      ctx.font = '600 10px "Onest", system-ui, sans-serif';
+      ctx.fillStyle = 'rgba(154,154,154,0.85)';
+      ctx.translate(dnX + 10, top + 6); ctx.rotate(Math.PI / 2); ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+      ctx.fillText('OUTCOMES', 0, 0);
+      ctx.restore();
+    }
+  }
+
+  renderVals() {
+    const v = { setRail: this.setRail, setStack: this.setStack };
+    for (let i = 1; i <= 5; i++) {
+      const on = (this.state.mask & (1 << (i - 1))) !== 0;
+      v['o' + i] = on ? 1 : 0.12;
+      v['y' + i] = on ? 0 : 18;
+    }
+    const cols = ['#9B7BFF', '#FFB829', '#E650BE'];
+    for (let k = 0; k < 3; k++) {
+      const on = this.state.tab === k;
+      v['on' + k] = on;
+      v['pick' + k] = this.picks[k];
+      v['ap' + k] = on ? 'true' : 'false';
+      v['tb' + k] = on ? '#121212' : 'transparent';
+      v['tc' + k] = on ? cols[k] : '#2a2a2a';
+      v['tt' + k] = on ? '#ffffff' : '#9a9a9a';
+    }
+    return v;
+  }
+}a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$Lc",null,{"html":"$d","css":"$e","js":"$f"}],["$L10"],"$L11"]}],"p":"$@12","v":null,"s":"$6"}}]]
+7:[["children",{"s":"platform","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@8","v":"$9","s":"$6"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$17",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Platform | Gaineo"}],["$","meta","1",{"name":"description","content":"How Gaineo helps every revenue team land the quarter: one understanding of your business, shared across every seat."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L18","3",{}]]}]}],null]}],null]}],"p":"$@19","v":null,"s":"$6"}},"a":"$@1a","u":"$@1b","b":"VtF7pwbhsvIxj4rDSNw6a"}
+1c:I[13693,["$2"],"OutletBoundary"]
+10:["$","script","script-0",{"src":"/_next/static/chunks/2vmo25ixizm2q.js","async":true}]
+11:["$","$L1c",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+6:300
+1d:null
+1b:true
+6:C
+1a:0
+8:"$undefined"
+5:"$undefined"
+19:"$undefined"
+12:"$undefined"

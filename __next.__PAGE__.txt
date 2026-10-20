@@ -1,0 +1,1513 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/3727-02i72m06.js"
+3:I[42194,["$2"],"default"]
+4:I[5817,["$2"],"default"]
+8:"/_next/static/chunks/2vmo25ixizm2q.js"
+9:I[90973,["$2","$8"],"default"]
+f:"ViewportBoundary"
+10:I[13693,["$2"],"$f"]
+11:"MetadataBoundary"
+12:I[13693,["$2"],"$11"]
+13:"$Sreact.suspense"
+14:I[14017,["$2"],"IconMark"]
+:HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
+6:X
+a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+
+  <!-- NAV -->
+  <header>
+    <nav aria-label="Main" style="max-width: 1280px; margin: 0 auto; padding: 24px 36px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px">
+      <a href="#top" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
+        <img src="/assets/brand-logo.png" alt="Gaineo" width="97" height="32" style="display: block">
+      </a>
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
+        <a href="#top" aria-current="page" style="color: #ffffff">Home</a>
+        <a href="/platform/">Platform</a>
+        <a href="/manifesto/">Manifesto</a>
+        <a href="/manifesto/#faq">FAQ</a>
+        <a href="/company/">Company</a>
+        <a href="#invite" style="background: #8052ff; color: #ffffff; padding: 14px 20px; border-radius: 24px">Get in touch</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO: the lived moment, then the promise -->
+  <section id="top" aria-label="Introduction" style="position: relative; height: min(max(720px, calc(100vh - 92px)), 1080px); overflow: hidden">
+    <canvas data-dc-ref="setHero" aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block"></canvas>
+
+    <div style="position: absolute; left: 0; right: 0; top: 0; max-width: 1280px; margin: 0 auto; padding: 8px 36px 0; display: flex; justify-content: space-between; align-items: center; gap: 18px; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a; z-index: 3">
+      <span></span>
+      <div style="display: flex; gap: 22px">
+        <button type="button" data-dc-on="click:skip" data-dc-style="display: {{skipDisplay}}; background: transparent; border: none; color: #ffffff; font: inherit; letter-spacing: 0.06em; padding: 12px 0; cursor: pointer; min-height: 44px">Skip →</button>
+        <button type="button" data-dc-on="click:togglePlay" style="background: transparent; border: none; color: #ffb829; font: inherit; letter-spacing: 0.06em; padding: 12px 0; cursor: pointer; min-height: 44px" data-dc-text="playLabel"></button>
+      </div>
+    </div>
+
+    <!-- Before-state: overheard at the quarter-end table -->
+    <div aria-live="polite" data-dc-style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; display: flex; align-items: center; pointer-events: none; opacity: {{overlayOpacity}}; transition: opacity 700ms ease; z-index: 2">
+      <div style="width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 36px; box-sizing: border-box">
+        <div style="max-width: 760px; display: flex; flex-direction: column; gap: 16px; text-shadow: 0 0 24px #000000, 0 0 6px #000000">
+          <div class="gx-qhead" style="display: grid; margin: 0 0 14px">
+            <p data-dc-style="grid-area: 1 / 1; margin: 0; font-weight: 400; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.08; letter-spacing: -0.035em; color: #ffb829; opacity: {{oq}}; transition: opacity 900ms ease">If your revenue dashboards only tell you where you&#8217;ve been, how does your quarter end?</p>
+            <p data-dc-style="grid-area: 1 / 1; align-self: end; margin: 0; font-weight: 400; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.08; letter-spacing: -0.035em; color: #ffffff; opacity: {{of}}; transition: opacity 900ms ease">Does this feel familiar?</p>
+          </div>
+          <p data-dc-style="margin: 0; font-weight: 300; font-size: clamp(20px, 2.1vw, 30px); line-height: 1.3; letter-spacing: -0.02em; opacity: {{o1}}; transition: opacity 900ms ease">“Sixty-one percent with three weeks left. This can't be normal!”</p>
+          <p data-dc-style="margin: 0; font-weight: 300; font-size: clamp(20px, 2.1vw, 30px); line-height: 1.3; letter-spacing: -0.02em; opacity: {{o2}}; transition: opacity 900ms ease">“What did it cost for us to get here this quarter?”</p>
+          <p data-dc-style="margin: 0; font-weight: 300; font-size: clamp(20px, 2.1vw, 30px); line-height: 1.3; letter-spacing: -0.02em; opacity: {{o3}}; transition: opacity 900ms ease">“Something changed in Mid-Market since last re-forecast!”</p>
+          <p data-dc-style="margin: 0; font-weight: 300; font-size: clamp(20px, 2.1vw, 30px); line-height: 1.3; letter-spacing: -0.02em; opacity: {{o4}}; transition: opacity 900ms ease">“Which of these three numbers do I take to the board?”</p>
+          <p class="gx-lose" data-dc-style="margin: 8px 0 0; font-size: 15px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #ff6a6a; opacity: {{o5}}; transition: opacity 900ms ease">We are losing time.</p>
+          <p class="gx-one" data-dc-style="margin: 6px 0 0; font-weight: 400; font-size: clamp(30px, 3.6vw, 52px); line-height: 1.08; letter-spacing: -0.035em; opacity: {{o6}}; transition: opacity 1100ms ease">“Can you tell me how we save this quarter?”</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- When it goes public: paraphrased headlines from real reported quarters -->
+    <div class="gx-clips" aria-hidden="true" data-dc-style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; display: flex; align-items: center; pointer-events: none; opacity: {{overlayOpacity}}; transition: opacity 700ms ease; z-index: 2">
+      <div style="width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 36px; box-sizing: border-box; display: flex; justify-content: flex-end">
+        <div style="width: 380px; display: flex; flex-direction: column">
+            <div data-dc-style="filter: drop-shadow(0 18px 34px rgba(0,0,0,0.6)); margin-top: 0; margin-left: 0px; position: relative; z-index: 1; opacity: {{c1}}; transform: rotate(-2.2deg) translateY({{c1y}}px); transition: opacity 500ms ease, transform 700ms cubic-bezier(0.22, 1, 0.36, 1)">
+              <div style="width: 340px; box-sizing: border-box; background: #f2eee6; color: #141414; padding: 14px 20px 22px; clip-path: polygon(0 0, 100% 0, 100.0% 100%, 94.4% calc(100% - 6px), 88.9% 100%, 83.3% calc(100% - 6px), 77.8% 100%, 72.2% calc(100% - 6px), 66.7% 100%, 61.1% calc(100% - 6px), 55.6% 100%, 50.0% calc(100% - 6px), 44.4% 100%, 38.9% calc(100% - 6px), 33.3% 100%, 27.8% calc(100% - 6px), 22.2% 100%, 16.7% calc(100% - 6px), 11.1% 100%, 5.6% calc(100% - 6px), 0.0% 100%)">
+                <div style="display: flex; justify-content: space-between; gap: 12px; font-family: 'Newsreader', Georgia, serif; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; border-bottom: 1px solid #141414; padding-bottom: 6px"><span>Earnings · Q2</span><span>Markets</span></div>
+                <div style="margin-top: 10px; font-family: 'Newsreader', Georgia, serif; font-weight: 600; font-size: 22px; line-height: 1.15; letter-spacing: -0.01em">Stock falls 9% as large deals slip past quarter end.</div>
+                <div style="margin-top: 8px; font-family: 'Newsreader', Georgia, serif; font-style: italic; font-size: 14px; line-height: 1.4; color: #4a4743">A strong start, then a handful of big deals timed out in the final weeks.</div>
+              </div>
+            </div>
+            <div data-dc-style="filter: drop-shadow(0 18px 34px rgba(0,0,0,0.6)); margin-top: -6px; margin-left: 28px; position: relative; z-index: 2; opacity: {{c2}}; transform: rotate(1.6deg) translateY({{c2y}}px); transition: opacity 500ms ease, transform 700ms cubic-bezier(0.22, 1, 0.36, 1)">
+              <div style="width: 340px; box-sizing: border-box; background: #f2eee6; color: #141414; padding: 14px 20px 22px; clip-path: polygon(0 0, 100% 0, 100.0% 100%, 94.4% calc(100% - 6px), 88.9% 100%, 83.3% calc(100% - 6px), 77.8% 100%, 72.2% calc(100% - 6px), 66.7% 100%, 61.1% calc(100% - 6px), 55.6% 100%, 50.0% calc(100% - 6px), 44.4% 100%, 38.9% calc(100% - 6px), 33.3% 100%, 27.8% calc(100% - 6px), 22.2% 100%, 16.7% calc(100% - 6px), 11.1% 100%, 5.6% calc(100% - 6px), 0.0% 100%)">
+                <div style="display: flex; justify-content: space-between; gap: 12px; font-family: 'Newsreader', Georgia, serif; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; border-bottom: 1px solid #141414; padding-bottom: 6px"><span>Earnings · Q4</span><span>Markets</span></div>
+                <div style="margin-top: 10px; font-family: 'Newsreader', Georgia, serif; font-weight: 600; font-size: 22px; line-height: 1.15; letter-spacing: -0.01em">Revenue beats. Margin doesn't. Stock falls.</div>
+                <div style="margin-top: 8px; font-family: 'Newsreader', Georgia, serif; font-style: italic; font-size: 14px; line-height: 1.4; color: #4a4743">A record top line, undone by a gross margin nobody planned for.</div>
+              </div>
+            </div>
+            <div data-dc-style="filter: drop-shadow(0 18px 34px rgba(0,0,0,0.6)); margin-top: -6px; margin-left: 8px; position: relative; z-index: 3; opacity: {{c3}}; transform: rotate(-1.0deg) translateY({{c3y}}px); transition: opacity 500ms ease, transform 700ms cubic-bezier(0.22, 1, 0.36, 1)">
+              <div style="width: 340px; box-sizing: border-box; background: #f2eee6; color: #141414; padding: 14px 20px 22px; clip-path: polygon(0 0, 100% 0, 100.0% 100%, 94.4% calc(100% - 6px), 88.9% 100%, 83.3% calc(100% - 6px), 77.8% 100%, 72.2% calc(100% - 6px), 66.7% 100%, 61.1% calc(100% - 6px), 55.6% 100%, 50.0% calc(100% - 6px), 44.4% 100%, 38.9% calc(100% - 6px), 33.3% 100%, 27.8% calc(100% - 6px), 22.2% 100%, 16.7% calc(100% - 6px), 11.1% 100%, 5.6% calc(100% - 6px), 0.0% 100%)">
+                <div style="display: flex; justify-content: space-between; gap: 12px; font-family: 'Newsreader', Georgia, serif; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; border-bottom: 1px solid #141414; padding-bottom: 6px"><span>Equity research</span><span>Markets</span></div>
+                <div style="margin-top: 10px; font-family: 'Newsreader', Georgia, serif; font-weight: 600; font-size: 22px; line-height: 1.15; letter-spacing: -0.01em">Margins trail as the sales push outruns the plan.</div>
+                <div style="margin-top: 8px; font-family: 'Newsreader', Georgia, serif; font-style: italic; font-size: 14px; line-height: 1.4; color: #4a4743">Analysts flag gross margins well below software peers.</div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The promise -->
+    <div style="position: absolute; left: 0; right: 0; bottom: 0; max-width: 1280px; margin: 0 auto; padding: 0 36px 72px; box-sizing: border-box; z-index: 2">
+      <div data-dc-style="max-width: 860px; opacity: {{heroOpacity}}; transform: translateY({{heroShift}}px); transition: opacity 1100ms ease, transform 1100ms ease">
+        <div style="margin: 0 0 16px; font-size: clamp(20px, 2vw, 28px); font-weight: 300; line-height: 1.25; letter-spacing: -0.02em; color: #ffb829">Optimize and control every revenue motion.</div>
+        <h1 style="margin: 0; font-weight: 400; font-size: clamp(52px, 7.8vw, 113px); line-height: 0.95; letter-spacing: -0.04em">Land the quarter you planned.</h1>
+        <div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 24px 60px; align-items: flex-end">
+          <p style="flex: 1 1 320px; max-width: 480px; margin: 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #ffffff">Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter.</p>
+          <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+            <a href="#invite" style="background: #8052ff; color: #ffffff; font-size: 14px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; padding: 15px 22px; border-radius: 24px">See where your quarter can land</a>
+            <a href="#journey" style="color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">How it works ↓</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE JOURNEY: one constellation, re-formed by every argument -->
+  <section id="journey" aria-label="How Gaineo works" style="position: relative">
+    <!-- Chapter progress, 01 to 08 -->
+    <div class="gx-chapters" aria-hidden="true" style="position: absolute; left: 24px; top: 0; bottom: 0; width: 60px; z-index: 3; pointer-events: none">
+      <div data-dc-style="position: sticky; top: calc(50vh - 120px); font-family: 'Onest', system-ui, sans-serif; opacity: {{chOn}}; transition: opacity 400ms ease">
+          <div title="The revenue puzzle" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc1}}; transition: color 300ms ease">01</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw1}}px; background: {{cc1}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+          <div title="The shape of your business" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc2}}; transition: color 300ms ease">02</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw2}}px; background: {{cc2}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+          <div title="A thousand paths" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc3}}; transition: color 300ms ease">03</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw3}}px; background: {{cc3}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+          <div title="Judgment &amp; action" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc4}}; transition: color 300ms ease">04</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw4}}px; background: {{cc4}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+          <div title="Formation" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc5}}; transition: color 300ms ease">05</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw5}}px; background: {{cc5}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+          <div title="The landing" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc6}}; transition: color 300ms ease">06</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw6}}px; background: {{cc6}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+          <div title="Yours" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc7}}; transition: color 300ms ease">07</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw7}}px; background: {{cc7}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+          <div title="The team" style="display: flex; align-items: center; gap: 10px; height: 30px">
+            <span data-dc-style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: {{cc8}}; transition: color 300ms ease">08</span>
+            <span data-dc-style="display: block; height: 1px; width: {{cw8}}px; background: {{cc8}}; transition: width 300ms ease, background 300ms ease"></span>
+          </div>
+      </div>
+    </div>
+    <div style="position: sticky; top: 0; height: 100vh; z-index: 0">
+      <canvas class="gx-bg" data-dc-ref="setJourney" aria-hidden="true" style="width: 100%; height: 100%; display: block"></canvas>
+    </div>
+    <div style="position: relative; z-index: 1; margin-top: -100vh; max-width: 1280px; margin-left: auto; margin-right: auto; padding: 0 36px; box-sizing: border-box">
+      <div id="thesis" data-dc-ref="setSteps" style="max-width: 500px; padding: 0 0 160px">
+
+        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">01 · The revenue puzzle</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Your revenue puzzle is complex. What solves it?</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">The pipeline tool. The forecast playing catch-up.<br>The deal reports. A weekly spreadsheet tracking expansion or risk. Some AI sprinkled on top.</p>
+          <p style="margin: 14px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Now ask the hard question:<br>Can any of them land your quarter?</p>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px; text-wrap: balance">Your puzzle doesn&#8217;t solve&nbsp;itself.<br>It needs a&nbsp;solver.</p>
+          <a href="/manifesto/" style="display: inline-block; margin-top: 24px; pointer-events: auto; color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Our manifesto →</a>
+        </div>
+
+        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">02 · The shape of your business</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Your business has a shape. Gaineo learns all of it.</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Pipeline behavior, buying signals, segment nuances, engagement patterns, pricing and concessions, competitive plays and winning moves. How they move together is wisdom that shapes real outcomes.<br><br>Gaineo's pattern intelligence models that wisdom from your company's precedents, at a perceptive depth none of your revenue tools ever reached.</p>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">This AI does more than tasks.<br>It understands your whole revenue puzzle.</p>
+        </div>
+
+        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">03 · A thousand paths</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">A thousand paths to land the quarter.</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">For years, every quarter has been worked by adding it up deal by deal, with the human relay racing against the clock to close the gaps.<br><br>Gaineo optimizes every deal's health and wealth, and continually simulates how the portfolio is primed for the quarter, across every objective and every altitude.</p>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">Don't just estimate your quarter.<br>See every path to a safe landing.</p>
+        </div>
+
+        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">04 · Judgment &amp; Action</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Your best judgment acts, along the lit path.</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">No more chasing paths that won't add up by quarter-end. Gaineo monitors revenue execution risks as the quarter moves, surfacing options to people who decide direction.<br><br>The art of closing deals stays with your people. Human attention and judgment are focused where they critically matter, every day.</p>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">Most AI waits for your prompt.<br>Gaineo prompts you, for timely action.</p>
+        </div>
+
+        <div style="min-height: 820px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">05 · Formation</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Every function, flying in formation.</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Every function has its own objective, and in a hard quarter they pull against each other. The discount that wins the deal costs the margin. The push for speed costs the terms. Gaineo weighs those trade-offs against the portfolio's goals, so every seat flies the same course.</p>
+          <div style="margin-top: 28px; display: flex; flex-direction: column; gap: 16px">
+            <div style="display: flex; gap: 12px; align-items: flex-start">
+              <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" style="margin-top: 4px; flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#9B7BFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <div><div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9B7BFF">Sales</div><div style="margin-top: 4px; font-size: 18px; font-weight: 300; line-height: 1.4">“Close my deals this quarter, on terms that stick.”</div></div>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: flex-start">
+              <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" style="margin-top: 4px; flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#FFB829" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <div><div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #FFB829">Deal desk</div><div style="margin-top: 4px; font-size: 18px; font-weight: 300; line-height: 1.4">“Clear every deal fast, without giving away margin.”</div></div>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: flex-start">
+              <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" style="margin-top: 4px; flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#2EC4A4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <div><div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #2EC4A4">CSM</div><div style="margin-top: 4px; font-size: 18px; font-weight: 300; line-height: 1.4">“Renew the base, stop the churn, grow the usage.”</div></div>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: flex-start">
+              <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" style="margin-top: 4px; flex: none"><path d="M4 2.5 L12.5 8 L4 13.5" fill="none" stroke="#E650BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <div><div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #E650BE">Leadership</div><div style="margin-top: 4px; font-size: 18px; font-weight: 300; line-height: 1.4">“Land the plan the board and investors expect, every quarter.”</div></div>
+            </div>
+          </div>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">Many different objectives.<br>Aligned to achieve together.</p>
+          <a href="/platform/#capabilities" style="display: inline-block; margin-top: 24px; pointer-events: auto; color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">See what each team gets →</a>
+        </div>
+
+        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">06 · The landing</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">The quarter you planned, landed.</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Your plan is run every day, not rescued at the end. Every revenue motion is understood as part of the whole, so the gap never builds into a quarter-end crisis. Revenue and margin land together, as planned.</p>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">No more save plays.<br>Just a controlled landing, every quarter.</p>
+        </div>
+
+        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">07 · Yours</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">And it gets even wiser.</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Every approval, override, course correction and outcome becomes a decision asset that belongs to your company.<br><br>Quarter by quarter, Gaineo sees patterns across accounts, products and even time that no one person could ever hold in view, revealing true hidden revenue potential.</p>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">Built for your bottom line.<br>An asset that compounds.</p>
+          <a href="/platform/" style="display: inline-block; margin-top: 24px; pointer-events: auto; color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Explore the platform →</a>
+        </div>
+
+        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+          <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">08 · The team</div>
+          <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Built by experts.</h2>
+          <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Our collective human expertise spans the revenue lifecycle: sales, deal management, pricing, planning and forecasting, driving attainment, and financial reporting compliance. We ran RevOps, and felt <span style="white-space: nowrap">cross-functional</span> pains firsthand. We get it.<br><br>We are clear-eyed about AI and its true promise, and we often look beyond the ordinary hype to focus on building true innovation. We are fortunate to be advised by leaders with a remarkable cross-industry view of the revenue technology landscape.</p>
+          <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">Deep expertise meets AI&#8217;s true potential.<br>You get a new generation of capabilities.</p>
+          <a href="/company/" style="display: inline-block; margin-top: 24px; pointer-events: auto; color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Meet the team →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- THE INVITATION -->
+  <section id="invite" style="border-top: 1px solid #1c1c1c">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 120px 36px; box-sizing: border-box">
+      <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">Your first flight</div>
+      <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(48px, 6.6vw, 96px); line-height: 0.98; letter-spacing: -0.04em; max-width: 1000px">See where your quarter could have landed.</h2>
+      <div style="margin-top: 48px; display: flex; flex-wrap: wrap; gap: 36px 60px; align-items: flex-start">
+        <div style="flex: 1 1 360px; max-width: 520px">
+          <p style="margin: 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #ffffff">Start with a quarter you have already flown. We replay your own history and show you, on your own numbers, what a better landing would have looked like.</p>
+          <a href="mailto:info@gaineo.ai?subject=Backtest%20request" style="display: inline-block; margin-top: 28px; background: #8052ff; color: #ffffff; font-size: 14px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; padding: 15px 22px; border-radius: 24px">Request a backtest</a>
+        </div>
+        <div style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 24px; align-items: flex-start">
+          <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px">
+            <a href="/manifesto/" style="color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Read the manifesto →</a>
+            <a href="/platform/" style="color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Explore the platform →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING + FOOTER -->
+  <footer style="background: #0b0b0d; border-top: 1px solid #1c1c1c; padding-top: 56px">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 40px 36px 48px; box-sizing: border-box">
+      <div style="font-weight: 400; font-size: clamp(56px, 9vw, 140px); line-height: 0.9; letter-spacing: -0.045em">Gain, with <span style="color: #8052ff">Gaineo.</span></div>
+      <div style="margin-top: 96px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; font-size: 14px; color: #9a9a9a">
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; font-weight: 600; font-size: 13px; letter-spacing: 0.025em; text-transform: uppercase">
+          <a href="#top">Home</a>
+          <a href="/platform/">Platform</a>
+          <a href="/manifesto/">Manifesto</a>
+          <a href="/manifesto/#faq">FAQ</a>
+          <a href="/company/">Company</a>
+        </div>
+        <div style="font-weight: 300">548 Market St, San Francisco CA 94104 · <a href="mailto:info@gaineo.ai" style="color: #ffb829">info@gaineo.ai</a></div>
+      </div>
+      <div style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #1c1c1c; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 13px; color: #6a6a6a">
+        <a href="#top" style="display: flex; line-height: 1"><img src="/assets/brand-logo.png" alt="Gaineo home" width="79" height="26" style="display: block"></a>
+        <span>© 2026 Gaineo. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+</div>b:Tde91,class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.T = {
+      ink: '255,255,255', mute: '154,154,154', boost: 1,
+      palette: ['128,82,255', '255,184,41', '46,196,164', '230,80,190', '90,140,255'],
+      personas: [['Leadership', '230,80,190'], ['Deal desk', '255,184,41'], ['CSM', '46,196,164'], ['Sales', '155,123,255']],
+      risk: '255,96,96',
+      destRing: '#8052ff', destFill: '#ffb829',
+      font: '"Onest", system-ui, sans-serif', labelSize: 11,
+      layout: 'bg', ambient: true
+    };
+    // The opening: dashboard, the question, the dashboard steps back, the route draws to today and dulls, the question gives way
+    // to "Does this feel familiar?", then the voices at the table, a pause, and the headlines.
+    this.TL = { Q: 800, DASH: [1800, 2600], MAP: 2600, DULL: 5400, QOUT: 7400, F: 8100, L: [8800, 10400, 12000, 13600, 15000, 16200], C: [18400, 19000, 19600], OUT: 21400, B_END: 21700, M_END: 23300, P_START: 22900, P_END: 24900, TEXT: 22500 };
+    this.state = { beat: 0, clip: 0, paused: false, q: 0, f: 0, ch: -1 };
+    this.hero = { el: null, W: 0, H: 0, dpr: 1, g: null };
+    this.jour = { el: null, W: 0, H: 0, dpr: 1, g: null };
+    this.stepsEl = null;
+    this.p = 0;
+    this.raf = 0;
+    this.t0 = 0;
+    this.setHero = (el) => { this.hero.el = el; this.hero.W = 0; };
+    this.setJourney = (el) => { this.jour.el = el; this.jour.W = 0; };
+    this.setSteps = (el) => { this.stepsEl = el; };
+    this.PL = ['Pause ❚❚', 'Play ▶', 'Replay ↺'];
+    this.paused = false; this.pauseAt = 0; this.accum = 0;
+    // One button: Pause while the hero plays, Play while paused, Replay once it has landed.
+    this.togglePlay = () => {
+      const now = performance.now();
+      if (this.state.beat >= 8) { this.start(); return; }
+      if (this.paused) { this.accum += now - this.pauseAt; this.paused = false; }
+      else { this.paused = true; this.pauseAt = now; }
+      this.setState({ paused: this.paused });
+    };
+    this.skip = () => {
+      const now = performance.now();
+      if (this.paused) { this.accum += now - this.pauseAt; this.paused = false; this.setState({ paused: false }); }
+      this.t0 = this.hnow(now) - this.TL.OUT;
+    };
+    this.onResize = () => { this.hero.W = 0; this.jour.W = 0; };
+  }
+
+  componentDidMount() {
+    this.reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    window.addEventListener('resize', this.onResize);
+    this.build();
+    this.buildPuzzle();
+    this.start();
+  }
+
+  componentWillUnmount() {
+    cancelAnimationFrame(this.raf);
+    window.removeEventListener('resize', this.onResize);
+  }
+
+  ink(a) { return 'rgba(' + this.T.ink + ',' + Math.min(1, a * this.T.boost) + ')'; }
+
+  rng(seed) {
+    let a = seed >>> 0;
+    return function () {
+      a = (a + 0x6D2B79F5) >>> 0;
+      let t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  build() {
+    const r = this.rng(7);
+    const gauss = () => {
+      const u = Math.max(1e-6, r());
+      return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * r());
+    };
+    const shapes = [];
+    const texts = [];
+    const rect = (x, y, w, h) => shapes.push({ k: 'rect', x, y, w, h });
+    const line = (x1, y1, x2, y2) => shapes.push({ k: 'line', x1, y1, x2, y2 });
+    const dash = (x1, y1, x2, y2) => shapes.push({ k: 'dash', x1, y1, x2, y2 });
+    // Every instrument stops at today: week 10 of 13. Nothing reads forward.
+    const kpis = [['BOOKED \u00b7 TO DATE', '$20.9M'], ['ATTAINMENT \u00b7 TO DATE', '61%'], ['LANDING \u00b7 QUARTER END', '?']];
+    kpis.forEach((k, i) => {
+      const x = i * 0.25;
+      rect(x, 0, 0.22, 0.17);
+      texts.push({ x: x + 0.015, y: 0.05, s: k[0], size: 10, a: 0.5 });
+      texts.push({ x: x + 0.015, y: 0.125, s: k[1], size: 22, a: 0.85 });
+    });
+    rect(0.76, 0, 0.24, 0.17);
+    texts.push({ x: 0.775, y: 0.05, s: 'ALERTS', size: 10, a: 0.5 });
+    ['3 deals slipped', 'Margin below floor', 'Forecast revised'].forEach((s, i) => {
+      texts.push({ x: 0.79, y: 0.085 + i * 0.03, s: s, size: 10, a: 0.7, dot: true });
+    });
+    rect(0, 0.22, 0.47, 0.38);
+    texts.push({ x: 0.015, y: 0.26, s: 'BOOKINGS BY WEEK', size: 10, a: 0.5 });
+    for (let i = 0; i < 13; i++) {
+      const bx = 0.02 + i * 0.0335;
+      if (i < 10) {
+        const h = 0.06 + 0.22 * (0.35 + 0.65 * Math.abs(Math.sin(i * 1.7 + 0.4)));
+        rect(bx, 0.57 - h, 0.022, h);
+      } else dash(bx, 0.57, bx + 0.022, 0.57);
+    }
+    dash(0.349, 0.29, 0.349, 0.57);
+    texts.push({ x: 0.355, y: 0.305, s: 'TODAY', size: 9, a: 0.6 });
+    rect(0.51, 0.22, 0.49, 0.38);
+    texts.push({ x: 0.525, y: 0.26, s: 'FORECAST VS. ACTUAL', size: 10, a: 0.5 });
+    let px = 0.53, py = 0.5;
+    for (let i = 1; i <= 10; i++) {
+      const nx = 0.53 + i * 0.0346;
+      const ny = 0.5 - 0.17 * (i / 14) + 0.04 * Math.sin(i * 1.3);
+      line(px, py, nx, ny);
+      px = nx; py = ny;
+    }
+    dash(0.876, 0.29, 0.876, 0.56);
+    texts.push({ x: 0.882, y: 0.305, s: 'TODAY', size: 9, a: 0.6 });
+    line(0.53, 0.56, 0.98, 0.56);
+    rect(0, 0.65, 0.62, 0.35);
+    texts.push({ x: 0.015, y: 0.69, s: 'PIPELINE · Q4', size: 10, a: 0.5 });
+    for (let i = 1; i < 6; i++) line(0, 0.71 + i * 0.048, 0.62, 0.71 + i * 0.048);
+    for (let j = 1; j < 5; j++) line(j * 0.124, 0.71, j * 0.124, 1);
+    line(0, 0.71, 0.62, 0.71);
+    rect(0.66, 0.65, 0.34, 0.35);
+    texts.push({ x: 0.675, y: 0.69, s: 'MIX', size: 10, a: 0.5 });
+    for (let i = 0; i < 24; i++) {
+      const a1 = (i / 24) * Math.PI * 2, a2 = ((i + 1) / 24) * Math.PI * 2;
+      line(0.83 + Math.cos(a1) * 0.06, 0.84 + Math.sin(a1) * 0.1, 0.83 + Math.cos(a2) * 0.06, 0.84 + Math.sin(a2) * 0.1);
+    }
+    this.shapes = shapes;
+    this.texts = texts;
+
+    const segs = [];
+    shapes.forEach((s) => {
+      if (s.k === 'rect') segs.push([s.x, s.y, s.x + s.w, s.y], [s.x + s.w, s.y, s.x + s.w, s.y + s.h], [s.x + s.w, s.y + s.h, s.x, s.y + s.h], [s.x, s.y + s.h, s.x, s.y]);
+      else segs.push([s.x1, s.y1, s.x2, s.y2]);
+    });
+    let total = 0;
+    const cum = segs.map((g) => { total += Math.hypot(g[2] - g[0], g[3] - g[1]); return total; });
+    const sample = () => {
+      const t = r() * total;
+      let i = 0;
+      while (cum[i] < t) i++;
+      const g = segs[i];
+      const u = r();
+      return [g[0] + (g[2] - g[0]) * u, g[1] + (g[3] - g[1]) * u];
+    };
+
+    const NC = 8;
+    const centers = [];
+    for (let i = 0; i < NC; i++) centers.push([gauss() * 0.45, gauss() * 0.35, gauss() * 0.45]);
+    const N = 760;
+    const pal = this.T.palette;
+    const parts = [];
+    for (let i = 0; i < N; i++) {
+      const ci = i % NC;
+      const c = centers[ci];
+      const s = sample();
+      parts.push({
+        sx: s[0], sy: s[1],
+        lx: r() * 2.8 - 1.4, ly: r() * 2.4 - 1.2,
+        x: c[0] + gauss() * 0.2, y: c[1] + gauss() * 0.17, z: c[2] + gauss() * 0.2,
+        d: r(), size: 0.7 + r() * 1.1,
+        col: pal[Math.floor(r() * pal.length)],
+        ci: ci, pc: this.T.personas[ci % 4][1],
+        rot: r() * Math.PI * 2, fl: r() * 6.28
+      });
+    }
+    this.parts = parts;
+    this.NC = NC;
+
+    const paths = [];
+    for (let i = 0; i < 90; i++) {
+      const miss = r() < 0.14;
+      paths.push({
+        p: Math.floor(r() * N),
+        fan: r() * 2 - 1,
+        off: miss ? (r() < 0.5 ? -1 : 1) * (0.09 + r() * 0.08) : gauss() * 0.012,
+        miss: miss,
+        lag: r() * 0.35,
+        ph: r()
+      });
+    }
+    this.paths = paths;
+    // A handful of the simulated paths, spread across the fan, where people make the calls.
+    const ok = paths.map((t, i) => i).filter((i) => !paths[i].miss).sort((a, b) => paths[a].fan - paths[b].fan);
+    this.hiPaths = [0.1, 0.3, 0.5, 0.7, 0.9].map((q) => ok[Math.floor(q * (ok.length - 1))]);
+    this.calls = ['APPROVE TERMS', 'HOLD PRICE', 'PULL IN', 'ESCALATE', 'ADD SPONSOR'];
+    // Each lit path takes the color of the seat whose cluster it starts from.
+    this.hiCol = this.hiPaths.map((i) => this.T.personas[this.parts[paths[i].p].ci % 4][1]);
+    // Two more lit paths out of the CSM cluster: the renewal and expansion calls.
+    const csm = ok.filter((i) => this.parts[paths[i].p].ci % 4 === 2 && this.hiPaths.indexOf(i) < 0);
+    if (csm.length >= 2) {
+      this.hiPaths.push(csm[0], csm[csm.length - 1]);
+      this.calls.push('CONCEDE TO RENEW', 'EXPAND');
+      this.hiCol.push(this.T.personas[2][1], this.T.personas[2][1]);
+    }
+
+    const ghosts = [];
+    for (let i = 0; i < 30; i++) ghosts.push({ y: 0.12 + r() * 0.76, p: Math.floor(r() * N), bend: r() * 2 - 1 });
+    this.ghosts = ghosts;
+
+    const amb = [];
+    if (this.T.ambient) {
+      for (let i = 0; i < 150; i++) amb.push({ x: r(), y: r(), sp: 0.4 + r(), rot: (r() - 0.5) * 0.9, col: pal[Math.floor(r() * pal.length)], size: 0.6 + r() * 0.8 });
+    }
+    this.amb = amb;
+  }
+
+  fit(c, mode) {
+    if (!c.el) return false;
+    if (c.W) return true;
+    const b = c.el.getBoundingClientRect();
+    if (b.width < 2 || b.height < 2) return false;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    c.el.width = Math.round(b.width * dpr);
+    c.el.height = Math.round(b.height * dpr);
+    c.W = b.width; c.H = b.height; c.dpr = dpr;
+    const W = b.width, H = b.height;
+    if (mode === 'hero') {
+      const narrow = W < 760;
+      c.g = {
+        W, H, narrow,
+        reg: narrow ? { x: W * 0.06, y: H * 0.1, w: W * 0.88, h: H * 0.38 } : { x: W * 0.08, y: H * 0.07, w: W * 0.84, h: H * 0.45 },
+        cx: narrow ? W * 0.26 : W * 0.25, cy: narrow ? H * 0.25 : H * 0.27,
+        R: Math.min(W, H) * (narrow ? 0.15 : 0.145),
+        dx: narrow ? W * 0.9 : W * 0.86, dy: narrow ? H * 0.27 : H * 0.27,
+        qTop: H * 0.07, qBot: H * (narrow ? 0.48 : 0.5),
+        gx: W * 0.02, lx: 18, ly: 22
+      };
+    } else if (this.T.layout === 'bg' && W >= 900) {
+      c.g = {
+        W, H, narrow: false,
+        reg: { x: W * 0.46, y: H * 0.16, w: W * 0.5, h: H * 0.62 },
+        cx: W * 0.64, cy: H * 0.5,
+        R: Math.min(W * 0.5, H) * 0.24,
+        dx: W * 0.94, dy: H * 0.5,
+        qTop: H * 0.1, qBot: H * 0.9,
+        gx: W * 0.42, lx: W * 0.46, ly: 32
+      };
+    } else if (this.T.layout === 'bg') {
+      c.g = {
+        W, H, narrow: true,
+        reg: { x: W * 0.06, y: H * 0.14, w: W * 0.88, h: H * 0.5 },
+        cx: W * 0.4, cy: H * 0.42,
+        R: Math.min(W, H) * 0.22,
+        dx: W * 0.9, dy: H * 0.44,
+        qTop: H * 0.1, qBot: H * 0.86,
+        gx: W * 0.02, lx: 16, ly: 32
+      };
+    } else {
+      c.g = {
+        W, H, narrow: W < 520,
+        reg: { x: W * 0.07, y: H * 0.14, w: W * 0.86, h: H * 0.74 },
+        cx: W * 0.27, cy: H * 0.52,
+        R: Math.min(W, H) * 0.2,
+        dx: W * 0.9, dy: H * 0.52,
+        qTop: H * 0.12, qBot: H * 0.9,
+        gx: W * 0.02, lx: 18, ly: 22
+      };
+    }
+    if (mode !== 'hero') this.layoutPuzzle(c.g);
+    return true;
+  }
+
+  start() {
+    cancelAnimationFrame(this.raf);
+    this.paused = false; this.accum = 0;
+    this.t0 = performance.now();
+    this.setState({ beat: this.reduce ? 8 : 0, clip: 0, paused: false });
+    const loop = (now) => {
+      if (this.fit(this.hero, 'hero')) this.drawHero(now);
+      if (this.fit(this.jour, 'journey')) {
+        this.p += (this.scrollTarget() - this.p) * (this.reduce ? 1 : 0.1);
+        this.drawJourney(now);
+      }
+      this.raf = requestAnimationFrame(loop);
+    };
+    this.raf = requestAnimationFrame(loop);
+  }
+
+  scrollTarget() {
+    const el = this.stepsEl;
+    if (!el) return 0;
+    const vh = window.innerHeight || 800;
+    let sum = 0;
+    for (let i = 0; i < el.children.length; i++) {
+      const b = el.children[i].getBoundingClientRect();
+      sum += this.clamp((vh * 0.6 - b.top) / Math.max(1, b.height));
+    }
+    return sum;
+  }
+
+  ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+  clamp(t) { return t < 0 ? 0 : t > 1 ? 1 : t; }
+  bez(a, b, c, d, t) { const u = 1 - t; return u * u * u * a + 3 * u * u * t * b + 3 * u * t * t * c + t * t * t * d; }
+
+  project(g, p, th) {
+    const c = Math.cos(th), s = Math.sin(th);
+    const x = p.x * c - p.z * s;
+    const z = p.x * s + p.z * c;
+    const k = 1 + z * 0.18;
+    return [g.cx + x * g.R * k, g.cy + p.y * g.R * 0.85 * k, z];
+  }
+
+  ctxFor(c) {
+    const ctx = c.el.getContext('2d');
+    ctx.setTransform(c.dpr, 0, 0, c.dpr, 0, 0);
+    ctx.clearRect(0, 0, c.W, c.H);
+    return ctx;
+  }
+
+  drawPanels(ctx, g, pa) {
+    const reg = g.reg;
+    const PX = (nx) => reg.x + nx * reg.w;
+    const PY = (ny) => reg.y + ny * reg.h;
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = this.ink(0.3 * pa);
+    ctx.beginPath();
+    this.shapes.forEach((s) => {
+      if (s.k === 'rect') ctx.rect(PX(s.x) + 0.5, PY(s.y) + 0.5, s.w * reg.w, s.h * reg.h);
+      else if (s.k === 'line') { ctx.moveTo(PX(s.x1), PY(s.y1)); ctx.lineTo(PX(s.x2), PY(s.y2)); }
+    });
+    ctx.stroke();
+    ctx.setLineDash([3, 4]);
+    ctx.strokeStyle = this.ink(0.55 * Math.sqrt(pa));   // the today line stays readable after the dashboard dims
+    ctx.beginPath();
+    this.shapes.forEach((s) => { if (s.k === 'dash') { ctx.moveTo(PX(s.x1), PY(s.y1)); ctx.lineTo(PX(s.x2), PY(s.y2)); } });
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.textBaseline = 'middle';
+    this.texts.forEach((t) => {
+      const sz = Math.max(7, t.size * Math.min(1, reg.w / 1100));
+      ctx.font = (t.size > 14 ? '300 ' : '400 ') + sz + 'px ' + this.T.font;
+      ctx.fillStyle = this.ink(t.s === 'TODAY' ? 0.8 * Math.sqrt(pa) : t.a * pa * 0.85);
+      if (t.dot) { ctx.beginPath(); ctx.arc(PX(t.x) - 7, PY(t.y), 1.8, 0, Math.PI * 2); ctx.fill(); }
+      ctx.fillText(t.s, PX(t.x), PY(t.y));
+    });
+  }
+
+  label(ctx, s, x, y, alpha, align, rgb) {
+    ctx.font = '600 ' + this.T.labelSize + 'px ' + this.T.font;
+    ctx.textBaseline = 'middle';
+    ctx.textAlign = align || 'left';
+    ctx.fillStyle = 'rgba(' + (rgb || this.T.mute) + ',' + alpha + ')';
+    ctx.fillText(s, x, y);
+    ctx.textAlign = 'left';
+  }
+
+  // The brand mark: a ">" vector pointing along its heading.
+  dot(ctx, x, y, a, sz, col, ang) {
+    if (this._rec) { this._rec.push({ x, y, a, sz, col, ang }); if (this._recOnly) return; }
+    const s = sz * 2.1;
+    const cs = Math.cos(ang), sn = Math.sin(ang);
+    const P = (u, v) => [x + u * cs - v * sn, y + u * sn + v * cs];
+    ctx.strokeStyle = 'rgba(' + col + ',' + Math.min(0.95, a) + ')';
+    ctx.lineWidth = 1.2;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.beginPath();
+    let q = P(-s * 0.55, -s * 0.8); ctx.moveTo(q[0], q[1]);
+    q = P(s * 0.55, 0); ctx.lineTo(q[0], q[1]);
+    q = P(-s * 0.55, s * 0.8); ctx.lineTo(q[0], q[1]);
+    ctx.stroke();
+  }
+
+  // ---- 08 · The team: a brain drawn in the brand's ">" marks, joined by neural links ----
+  brainGeom(g) {
+    const key = g.W + 'x' + g.H;
+    if (this._brain && this._brain.key === key) return this._brain;
+    let sd = 11;
+    const r = () => { sd = (sd * 16807) % 2147483647; return sd / 2147483647; };
+    const E = (x, y, cx, cy, rx, ry) => ((x - cx) / rx) ** 2 + ((y - cy) / ry) ** 2 < 1;
+    // Side view, facing left. Unit box about [-1, 1] x [-0.7, 0.8].
+    const inside = (x, y) => {
+      const cere = E(x, y, 0, -0.08, 1.0, 0.62) && !(y > 0.18 && x > 0.28) && !(y > 0.3 && x < -0.5);
+      const temp = E(x, y, -0.12, 0.24, 0.56, 0.27);
+      const cbl = E(x, y, 0.56, 0.37, 0.32, 0.19);
+      const stem = y > 0.3 && y < 0.8 && Math.abs(x - (0.2 + (y - 0.3) * 0.12)) < 0.1 - (y - 0.3) * 0.06;
+      if (!(cere || temp || cbl || stem)) return false;
+      // The folds that make it read as a brain: lateral fissure, central groove, and the cerebellum's gap.
+      const seg = (ax, ay, bx, by) => { const dx = bx - ax, dy = by - ay, t = Math.max(0, Math.min(1, ((x - ax) * dx + (y - ay) * dy) / (dx * dx + dy * dy))); return Math.hypot(x - ax - t * dx, y - ay - t * dy); };
+      if (seg(-0.52, 0.14, 0.3, -0.04) < 0.045) return false;
+      if (seg(0.04, -0.7, -0.1, 0.02) < 0.035) return false;
+      if (seg(0.2, 0.24, 0.92, 0.2) < 0.04 && x > 0.22) return false;
+      if (seg(-0.55, -0.38, -0.25, -0.2) < 0.028) return false;
+      if (seg(0.38, -0.5, 0.62, -0.16) < 0.028) return false;
+      return true;
+    };
+    // Lobe colors: the same seats as the formation, now thinking as one.
+    const P = this.T.palette;
+    const lobe = (x, y) => (y > 0.3 && x > 0.25) ? P[4] : x < -0.42 ? P[0] : y > 0.12 ? P[1] : x > 0.42 ? P[3] : P[2];
+    const S = g.narrow ? g.W * 0.4 : g.R * 1.55, cx = g.narrow ? g.W * 0.5 : g.cx + S * 0.05, cy = g.narrow ? g.H * 0.74 : g.cy - S * 0.06;
+    const pitch = g.narrow ? 0.1 : 0.075, pts = [];
+    for (let y = -0.72; y <= 0.82; y += pitch * 0.87) {
+      for (let x = -1.02; x <= 1.02; x += pitch) {
+        const jx = x + (r() - 0.5) * pitch * 0.55, jy = y + (r() - 0.5) * pitch * 0.55;
+        if (!inside(jx, jy)) continue;
+        const a0 = r() * Math.PI * 2, rr = 0.9 + r() * 0.9;
+        pts.push({
+          x: cx + jx * S, y: cy + jy * S, u: jx, v: jy,
+          sx: cx + Math.cos(a0) * rr * S * 1.3, sy: cy + Math.sin(a0) * rr * S * 0.9,
+          col: lobe(jx, jy), ang: 1.1 * Math.sin(3.2 * jx + 1.7) + 0.9 * Math.cos(4.1 * jy), dl: (jx + 1) / 2.2 * 0.5 + r() * 0.25,
+          sz: 0.75 + r() * 0.5, ph: r() * 6.28
+        });
+      }
+    }
+    // Neural links: each mark to its two nearest neighbours, plus a few longer reaches across lobes.
+    const links = [], seen = {};
+    const add = (i, j) => { const k = i < j ? i + ',' + j : j + ',' + i; if (seen[k]) return; seen[k] = 1; links.push([i, j, r()]); };
+    for (let i = 0; i < pts.length; i++) {
+      const d = [];
+      for (let j = 0; j < pts.length; j++) if (j !== i) d.push([Math.hypot(pts[i].u - pts[j].u, pts[i].v - pts[j].v), j]);
+      d.sort((a, b) => a[0] - b[0]);
+      add(i, d[0][1]); add(i, d[1][1]);
+      if (r() < 0.08) add(i, d[4 + Math.floor(r() * 10)][1]);
+    }
+    let y0 = 1e9, y1 = -1e9; pts.forEach((q) => { if (q.y < y0) y0 = q.y; if (q.y > y1) y1 = q.y; });
+    this._brain = { key, pts, links, gap: pitch * S, mid: (y0 + y1) / 2 };
+    return this._brain;
+  }
+
+  drawBrain(ctx, g, now, br, lk, snap) {
+    const B = this.brainGeom(g);
+    if (!B.ord) B.ord = B.pts.map((_, i) => i).sort((a, b) => B.pts[a].u - B.pts[b].u || B.pts[a].v - B.pts[b].v);
+    // Height-center the brain on the 08 text beside it (desktop); on phones it sits below the text.
+    let dy = 0;
+    const st = this.stepsEl && this.stepsEl.children[7];
+    if (st && !g.narrow && st.children.length) {
+      const top = st.children[0].getBoundingClientRect().top, bot = st.children[st.children.length - 1].getBoundingClientRect().bottom;
+      const cr = this.jour.el.getBoundingClientRect();
+      const mid = Math.max(g.H * 0.3, Math.min(g.H * 0.7, (top + bot) / 2 - cr.top));
+      dy = mid - B.mid;
+    }
+    const e = (t) => this.ease(this.clamp(t));
+    // Links first, under the marks.
+    if (lk > 0) {
+      ctx.lineWidth = 0.8;
+      ctx.strokeStyle = this.ink(0.26 * lk);
+      ctx.beginPath();
+      for (let i = 0; i < B.links.length; i++) {
+        const L = B.links[i], a = B.pts[L[0]], b = B.pts[L[1]];
+        const t = this.clamp(lk * 1.6 - L[2] * 0.6);
+        if (t <= 0) continue;
+        ctx.moveTo(a.x, a.y + dy); ctx.lineTo(a.x + (b.x - a.x) * t, a.y + dy + (b.y - a.y) * t);
+      }
+      ctx.stroke();
+      // Signals firing along the links.
+      if (!this.reduce && lk > 0.6) {
+        const n = Math.min(B.links.length, 46);
+        for (let k = 0; k < n; k++) {
+          const L = B.links[(k * 37) % B.links.length], a = B.pts[L[0]], b = B.pts[L[1]];
+          const u = ((now * 0.0006) + L[2] * 7) % 1.6;
+          if (u > 1) continue;
+          const al = Math.sin(u * Math.PI) * (lk - 0.6) / 0.4;
+          ctx.fillStyle = 'rgba(' + a.col + ',' + (0.9 * al) + ')';
+          ctx.beginPath(); ctx.arc(a.x + (b.x - a.x) * u, a.y + dy + (b.y - a.y) * u, 1.6, 0, Math.PI * 2); ctx.fill();
+        }
+      }
+    }
+    // Every mark from 07 travels to a place in the brain (left to right keeps the flow coherent);
+    // if there are more marks than places, the extras settle just beside one.
+    const M = snap && snap.length ? snap.length : 0, N = B.ord.length, n = Math.max(M, N);
+    for (let t = 0; t < n; t++) {
+      const q = B.pts[B.ord[Math.floor(t * N / n)]];
+      const sm = M ? snap[Math.floor(t * M / n)] : { x: q.x, y: q.y, a: 0, sz: 1, col: q.col, ang: q.ang };
+      const k = e(br * 1.5 - q.dl);
+      // Extras (more marks than places) settle in the gaps between places, a little quieter.
+      const ex = n > N && (t * N) % n >= N, off = ex ? B.gap * 0.42 : 0, oa = t * 2.399;
+      const jig = this.reduce ? 0 : 0.6 * Math.sin(now * 0.0011 + q.ph + t) * k;
+      const tx = q.x + Math.cos(oa) * off, ty = q.y + dy + Math.sin(oa) * off;
+      const x = sm.x + (tx - sm.x) * k + jig, y = sm.y + (ty - sm.y) * k + jig * 0.6;
+      const a = sm.a + ((ex ? 0.55 : 0.9) - sm.a) * k;
+      this.dot(ctx, x, y, a, sm.sz + (1.5 * q.sz - sm.sz) * k, sm.col, sm.ang + (q.ang - sm.ang) * k);
+    }
+  }
+
+  drawScene(ctx, g, now, L) {
+    this._occ = [];  // screen boxes already taken by labels and markers this frame
+    const th = 0.5 + now * 0.00004;
+    const reg = g.reg;
+    const PX = (nx) => reg.x + nx * reg.w;
+    const PY = (ny) => reg.y + ny * reg.h;
+    const NC = this.NC;
+    const sxs = new Array(NC).fill(0), sys = new Array(NC).fill(0), cnt = new Array(NC).fill(0);
+
+    if (L.show > 0) {
+      const proj = [];
+      for (let i = 0; i < this.parts.length; i++) {
+        const p = this.parts[i];
+        const m = this.ease(this.clamp(L.lift * 1.35 - p.d * 0.35));
+        const t = this.ease(this.clamp(L.tight * 1.35 - p.d * 0.35));
+        const al = this.ease(this.clamp((L.align || 0) * 1.3 - p.d * 0.3));
+        const q = this.project(g, p, th);
+        const lx = g.cx + p.lx * g.R * 1.5, ly = g.cy + p.ly * g.R * 1.1;
+        const bx = L.src ? p.jx : PX(p.sx), by = L.src ? p.jy : PY(p.sy);
+        const ax = bx + (lx - bx) * m, ay = by + (ly - by) * m;
+        let x = ax + (q[0] - ax) * t;
+        const y = ay + (q[1] - ay) * t;
+        x += (g.dx - x) * 0.06 * al;
+        proj.push([x, y]);
+        sxs[p.ci] += x; sys[p.ci] += y; cnt[p.ci] += 1;
+        const ta = Math.atan2(g.dy - y, g.dx - x);
+        let df = (ta - p.rot) % (Math.PI * 2);
+        if (df > Math.PI) df -= Math.PI * 2;
+        if (df < -Math.PI) df += Math.PI * 2;
+        const ang = p.rot + df * al;
+        // Before the pattern forms, each piece flickers on its own: busy, not moving the shape.
+        const flick = 1 - (1 - m) * 0.45 * (0.5 + 0.5 * Math.sin(now * 0.008 + p.fl));
+        const a = L.show * flick * (0.35 + 0.5 * Math.max(m, t)) * (0.55 + 0.45 * (q[2] + 1) / 2) * (L.bright || 1) * (1 + 0.45 * al) * this.T.boost;
+        // Neutral until the pattern clusters; each piece takes its seat's color only once it has found its place.
+        const col = t > 0.55 - p.d * 0.3 ? p.pc : this.T.ink;
+        this.dot(ctx, x, y, a, p.size * (0.8 + 0.4 * t) * (1 + 0.3 * al), col, ang);
+      }
+      if (L.links > 0) {
+        ctx.strokeStyle = this.ink(0.08 * L.links);
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        const lim = g.R * 0.32;
+        for (let i = 0; i < 480; i++) {
+          const a = proj[i], b = proj[i + NC];
+          if (!b) break;
+          if (Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]) < lim) { ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); }
+        }
+        ctx.stroke();
+      }
+    }
+
+    // The shape of risk: a moving map of where execution is at risk right now.
+    if ((L.risk || 0) > 0) {
+      for (let k = 0; k < NC; k++) {
+        if (!cnt[k]) continue;
+        const lvl = 0.5 + 0.5 * Math.sin(now * 0.0008 + k * 2.39);
+        const lit = this.clamp((lvl - 0.62) / 0.38) * L.risk;
+        if (lit <= 0.01) continue;
+        const x = sxs[k] / cnt[k], y = sys[k] / cnt[k];
+        const rr = g.R * 0.55;
+        const grd = ctx.createRadialGradient(x, y, 0, x, y, rr);
+        grd.addColorStop(0, 'rgba(' + this.T.risk + ',' + (0.3 * lit) + ')');
+        grd.addColorStop(1, 'rgba(' + this.T.risk + ',0)');
+        ctx.fillStyle = grd;
+        ctx.beginPath(); ctx.arc(x, y, rr, 0, Math.PI * 2); ctx.fill();
+        ctx.strokeStyle = 'rgba(' + this.T.risk + ',' + (0.9 * lit) + ')';
+        ctx.lineWidth = 1;
+        ctx.setLineDash([3, 3]);
+        ctx.beginPath(); ctx.arc(x, y, 16, 0, Math.PI * 2); ctx.stroke();
+        ctx.setLineDash([]);
+        if (lit > 0.45) { this.label(ctx, 'RISK', x + 22, y - 14, lit, 'left', this.T.risk); this._occ.push([x + 20, y - 22, x + 60, y - 6]); }
+      }
+    }
+
+    // Precedent: past paths flowing into the present.
+    if (L.ghost > 0) {
+      ctx.strokeStyle = this.ink(0.1 * L.ghost);
+      ctx.lineWidth = 1;
+      for (let i = 0; i < this.ghosts.length; i++) {
+        const gh = this.ghosts[i];
+        const e = this.project(g, this.parts[gh.p], th);
+        const x0 = g.gx, y0 = g.H * gh.y;
+        const tt = this.ease(L.ghost);
+        ctx.beginPath();
+        for (let j = 0; j <= 32; j++) {
+          const u = (j / 32) * tt;
+          const bx = this.bez(x0, x0 + (e[0] - x0) * 0.4, e[0] - (e[0] - x0) * 0.25, e[0], u);
+          const by = this.bez(y0, y0 + gh.bend * g.H * 0.05, e[1], e[1], u);
+          if (j === 0) ctx.moveTo(bx, by); else ctx.lineTo(bx, by);
+        }
+        ctx.stroke();
+      }
+      this.label(ctx, 'PRECEDENTS', g.gx + 8, g.qTop, 0.9 * L.ghost);
+    }
+
+    // Trajectories: a thousand ways forward, then one formation toward the landing.
+    if (L.extend > 0) {
+      const ex = g.dx, ey = g.dy;
+      const ha = this.clamp(L.extend * 2);
+      ctx.strokeStyle = this.ink(0.18 * ha);
+      ctx.setLineDash([2, 4]);
+      ctx.beginPath();
+      ctx.moveTo(ex + 0.5, g.qTop + 14);
+      ctx.lineTo(ex + 0.5, g.qBot);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      this.label(ctx, 'QUARTER END', ex - 8, g.qTop, ha, 'right');
+      this._occ.push([ex - 100, g.qTop - 9, ex - 4, g.qTop + 9]);
+      const jl = [];
+
+      for (let i = 0; i < this.paths.length; i++) {
+        const t = this.paths[i];
+        const tt = this.ease(this.clamp((L.extend - t.lag) / (1 - t.lag)));
+        if (tt <= 0) continue;
+        const s = this.project(g, this.parts[t.p], th);
+        const x0 = s[0], y0 = s[1];
+        const cv = t.miss ? 1 : L.converge;
+        const endY = ey + (t.fan * g.H * 0.34) * (1 - cv) + (t.off * g.H) * cv;
+        const ddx = ex - x0;
+        const c1x = x0 + ddx * 0.34, c1y = y0 + t.fan * g.H * 0.15;
+        const c2x = x0 + ddx * 0.72, c2y = endY + t.fan * g.H * (0.035 * cv + 0.1 * (1 - cv));
+        ctx.strokeStyle = t.miss ? this.ink(0.07) : this.ink(0.12 + 0.1 * L.converge);
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        for (let j = 0; j <= 48; j++) {
+          const u = (j / 48) * tt;
+          const bx = this.bez(x0, c1x, c2x, ex, u);
+          const by = this.bez(y0, c1y, c2y, endY, u);
+          if (j === 0) ctx.moveTo(bx, by); else ctx.lineTo(bx, by);
+        }
+        ctx.stroke();
+        const hk = (L.judge || 0) > 0 ? this.hiPaths.indexOf(i) : -1;
+        if (hk >= 0) {
+          // Emphasized path, with the judgment calls along it.
+          ctx.strokeStyle = this.hiCol[hk] ? 'rgba(' + this.hiCol[hk] + ',' + (0.9 * L.judge) + ')' : this.ink(0.6 * L.judge);
+          ctx.lineWidth = 1.7;
+          ctx.beginPath();
+          for (let j = 0; j <= 48; j++) {
+            const u = (j / 48) * tt;
+            const bx = this.bez(x0, c1x, c2x, ex, u), by = this.bez(y0, c1y, c2y, endY, u);
+            if (j === 0) ctx.moveTo(bx, by); else ctx.lineTo(bx, by);
+          }
+          ctx.stroke();
+          ctx.lineWidth = 1;
+          const jc = this.T.destFill || (this.props.accent ?? '#EBFB10');
+          [0.36, 0.64].forEach((um, mi) => {
+            if (um > tt) return;
+            const ma = this.clamp(L.judge * 1.6 - hk * 0.12 - mi * 0.2);
+            if (ma <= 0) return;
+            const mx = this.bez(x0, c1x, c2x, ex, um), my = this.bez(y0, c1y, c2y, endY, um);
+            const r = 4.5;
+            ctx.globalAlpha = ma * (this._ga ?? 1);
+            ctx.beginPath();
+            ctx.moveTo(mx, my - r); ctx.lineTo(mx + r, my); ctx.lineTo(mx, my + r); ctx.lineTo(mx - r, my); ctx.closePath();
+            ctx.fillStyle = jc; ctx.fill();
+            ctx.strokeStyle = this.ink(0.9); ctx.stroke();
+            ctx.globalAlpha = this._ga ?? 1;
+            this._occ.push([mx - 6, my - 6, mx + 6, my + 6]);
+            if (!g.narrow) jl.push({ hk: hk, mi: mi, x: mx, y: my, a: ma });
+          });
+        }
+        if (L.drift && !t.miss) {
+          const u = ((now * 0.00009) + t.ph) % 1;
+          ctx.fillStyle = this.ink(0.7);
+          ctx.fillRect(this.bez(x0, c1x, c2x, ex, u) - 1, this.bez(y0, c1y, c2y, endY, u) - 1, 2, 2);
+        }
+      }
+
+      if (jl.length) this.placeCalls(ctx, jl);
+      if (L.dest > 0) {
+        ctx.globalAlpha = L.dest * (this._ga ?? 1);
+        ctx.strokeStyle = this.T.destRing || (this.props.accent ?? '#EBFB10');
+        ctx.lineWidth = 1.5;
+        ctx.beginPath(); ctx.arc(ex, ey, 10, 0, Math.PI * 2); ctx.stroke();
+        ctx.fillStyle = this.T.destFill || (this.props.accent ?? '#EBFB10');
+        ctx.beginPath(); ctx.arc(ex, ey, 3.5, 0, Math.PI * 2); ctx.fill();
+        ctx.globalAlpha = this._ga ?? 1;
+        const right = g.narrow || ex > g.W * 0.85;
+        ctx.font = '600 ' + this.T.labelSize + 'px ' + this.T.font;
+        ctx.textAlign = right ? 'right' : 'left';
+        ctx.fillStyle = this.ink(L.dest);
+        ctx.fillText('THE NUMBER YOU PLANNED', right ? ex - 18 : ex + 20, ey - 20);
+        ctx.textAlign = 'left';
+      }
+    }
+
+    // Yours: the whole shape, held.
+    if ((L.yours || 0) > 0) {
+      ctx.strokeStyle = this.ink(0.4 * L.yours);
+      ctx.setLineDash([3, 5]);
+      ctx.beginPath();
+      ctx.arc(g.cx, g.cy, g.R * 1.55, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      this.label(ctx, 'BUILT FROM YOUR HISTORY', g.cx - g.R * 1.55, g.cy + g.R * 1.55 + 18, L.yours);
+    }
+  }
+
+  // ---- 01: the pieces of the revenue puzzle, then the cloud ----
+  buildPuzzle() {
+    const polys = {
+      NA: [[[0.05,0.12],[0.30,0.08],[0.33,0.20],[0.27,0.30],[0.22,0.42],[0.17,0.47],[0.12,0.36],[0.05,0.28]], [[0.33,0.04],[0.40,0.04],[0.38,0.14],[0.34,0.12]]],
+      EMEA: [[[0.45,0.14],[0.56,0.10],[0.58,0.22],[0.52,0.30],[0.46,0.28],[0.44,0.22]], [[0.45,0.34],[0.58,0.33],[0.63,0.45],[0.58,0.62],[0.54,0.75],[0.50,0.66],[0.46,0.50],[0.43,0.42]]],
+      APAC: [[[0.58,0.10],[0.80,0.06],[0.95,0.14],[0.92,0.26],[0.85,0.38],[0.78,0.46],[0.70,0.42],[0.64,0.36],[0.58,0.28]], [[0.78,0.50],[0.88,0.52],[0.86,0.56],[0.78,0.55]], [[0.80,0.64],[0.92,0.62],[0.95,0.72],[0.88,0.80],[0.80,0.76]]],
+      LATAM: [[[0.24,0.50],[0.32,0.53],[0.35,0.62],[0.30,0.80],[0.27,0.90],[0.25,0.75],[0.22,0.60]]]
+    };
+    const inside = (x, y, pl) => {
+      let c = false;
+      for (let i = 0, j = pl.length - 1; i < pl.length; j = i++) {
+        const a = pl[i], b = pl[j];
+        if ((a[1] > y) !== (b[1] > y) && x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]) c = !c;
+      }
+      return c;
+    };
+    this.regions = ['NA', 'EMEA', 'APAC', 'LATAM'];
+    this.regionPos = [[0.17, 0.25], [0.52, 0.42], [0.79, 0.25], [0.29, 0.68]];
+    this.MCOLS = 64; this.MROWS = 30;
+    const dots = [];
+    for (let r = 0; r < this.MROWS; r++) {
+      for (let q = 0; q < this.MCOLS; q++) {
+        const x = (q + 0.5) / this.MCOLS, y = (r + 0.5) / this.MROWS;
+        for (let k = 0; k < 4; k++) {
+          if (polys[this.regions[k]].some((pl) => inside(x, y, pl))) { dots.push([x, y, k]); break; }
+        }
+      }
+    }
+    this.mapDots = dots;
+    this.pie = [['Enterprise', 0.38], ['Mid-Market', 0.31], ['SMB', 0.19], ['Public sector', 0.12]];
+    this.bars = [['Strategic', 0.82], ['Growth', 0.64], ['Install base', 0.92], ['Partner-led', 0.41]];
+    this.tiles = ['New business', 'Expansion', 'Renewals', 'Usage'];
+    this.vigNames = ['REGIONS', 'SEGMENTS', 'CUSTOMER TYPES', 'REVENUE MOTIONS'];
+    // How long each piece holds center stage; the map gets longest so each region can register.
+    this.SEQ_D = [2000, 1300, 1300, 1500];
+    this.SEQ_S = [0, 2000, 3300, 4600];
+    this.SEQ_END = this.SEQ_S[3] + this.SEQ_D[3] * 0.95 + 450;
+    this.seq0 = 0;
+  }
+
+  rgba(rgb, a) { return 'rgba(' + rgb + ',' + Math.max(0, Math.min(1, a)) + ')'; }
+  pcol(k) { return this.T.personas[k % 4][1]; }
+
+  mapBox(b) {
+    const w = Math.min(b.w, b.h * 2), h = w / 2;
+    return { x: b.x + (b.w - w) / 2, y: b.y + (b.h - h) / 2, w, h };
+  }
+  pieGeom(b) {
+    const R = Math.min(b.w * 0.5, b.h) * 0.42;
+    return { cx: b.x + b.w / 2, cy: b.y + b.h / 2, R, r: R * 0.58 };
+  }
+  barGeom(b) {
+    const rh = b.h / 4;
+    return { x0: b.x + b.w * 0.3, max: b.w * 0.66, rh, bh: rh * 0.42, y: b.y };
+  }
+  tileGeom(b) {
+    const S = Math.min(b.w, b.h) * 0.86;
+    return { x: b.x + (b.w - S) / 2, y: b.y + (b.h - S) / 2, s: S / 2 };
+  }
+
+  drawMap(ctx, b, t, a) {
+    const m = this.mapBox(b);
+    const rad = Math.max(0.7, (m.w / this.MCOLS) * 0.3);
+    const hl = (k) => { const u = t * 4.4 - k * 0.95; return u > 0 && u < 1 ? Math.sin(Math.PI * u) : 0; };
+    ctx.fillStyle = this.ink(0.32 * a);
+    ctx.beginPath();
+    this.mapDots.forEach((d) => { if (hl(d[2]) < 0.05) { ctx.moveTo(m.x + d[0] * m.w + rad, m.y + d[1] * m.h); ctx.arc(m.x + d[0] * m.w, m.y + d[1] * m.h, rad, 0, Math.PI * 2); } });
+    ctx.fill();
+    for (let k = 0; k < 4; k++) {
+      const h = hl(k);
+      if (h < 0.05) continue;
+      ctx.fillStyle = this.rgba(this.pcol(k), a * (0.4 + 0.6 * h));
+      ctx.beginPath();
+      this.mapDots.forEach((d) => { if (d[2] === k) { ctx.moveTo(m.x + d[0] * m.w + rad * 1.3, m.y + d[1] * m.h); ctx.arc(m.x + d[0] * m.w, m.y + d[1] * m.h, rad * 1.3, 0, Math.PI * 2); } });
+      ctx.fill();
+      if (m.w > 260) this.label(ctx, this.regions[k], m.x + this.regionPos[k][0] * m.w, m.y + this.regionPos[k][1] * m.h, a * h, 'center', this.T.ink);
+    }
+  }
+
+  // Every piece is drawn in the same dot texture as the map, so all of it can dissolve into the cloud.
+  shapeDots(i, b, t) {
+    const pitch = Math.max(4, this.mapBox(b).w / this.MCOLS);
+    let fn, x0 = b.x, x1 = b.x + b.w, y0 = b.y, y1 = b.y + b.h;
+    if (i === 1) {
+      const p = this.pieGeom(b);
+      const sweep = this.ease(this.clamp(t * 1.5)) * Math.PI * 2;
+      const cuts = [];
+      let c = 0;
+      this.pie.forEach((s) => { c += s[1]; cuts.push(c * Math.PI * 2); });
+      fn = (x, y) => {
+        const dx = x - p.cx, dy = y - p.cy, rr = Math.hypot(dx, dy);
+        if (rr < p.r || rr > p.R) return -1;
+        const an = (Math.atan2(dy, dx) + Math.PI / 2 + Math.PI * 2) % (Math.PI * 2);
+        if (an > sweep) return -1;
+        for (let k = 0; k < 4; k++) if (an <= cuts[k]) return k;
+        return 3;
+      };
+    } else if (i === 2) {
+      const g = this.barGeom(b);
+      const lens = this.bars.map((v, k) => g.max * v[1] * this.ease(this.clamp(t * 1.5 - k * 0.12)));
+      fn = (x, y) => {
+        const k = Math.floor((y - g.y) / g.rh);
+        if (k < 0 || k > 3) return -1;
+        const yy = g.y + g.rh * k + (g.rh - g.bh) / 2;
+        if (y < yy || y > yy + g.bh) return -1;
+        return x >= g.x0 && x <= g.x0 + lens[k] ? k : -1;
+      };
+    } else {
+      const g = this.tileGeom(b), s = g.s;
+      const knobs = [[0, 1, 1, 0], [0, 0, 1, -1], [-1, 1, 0, 0], [-1, 0, 0, -1]];
+      const dir = [[-1, -1], [1, -1], [-1, 1], [1, 1]];
+      const tl = [0, 1, 2, 3].map((k) => {
+        const off = (1 - this.ease(this.clamp(t * 1.4 - k * 0.1))) * s * 0.7;
+        return [g.x + (k % 2) * s + dir[k][0] * off, g.y + (k >> 1) * s + dir[k][1] * off];
+      });
+      const inTile = (k, x, y) => {
+        const tx = tl[k][0], ty = tl[k][1];
+        const h = pitch * 0.5;  // a one-dot seam between tiles
+        let ins = x >= tx + h && x < tx + s - h && y >= ty + h && y < ty + s - h;
+        const E = [[0, -1, tx + s / 2, ty], [1, 0, tx + s, ty + s / 2], [0, 1, tx + s / 2, ty + s], [-1, 0, tx, ty + s / 2]];
+        for (let e = 0; e < 4; e++) {
+          const kk = knobs[k][e];
+          if (!kk) continue;
+          const cx = E[e][2] + E[e][0] * kk * s * 0.12, cy = E[e][3] + E[e][1] * kk * s * 0.12;
+          const dd = Math.hypot(x - cx, y - cy);
+          if (kk > 0 && dd < s * 0.14 - h) ins = true;
+          if (kk < 0 && dd < s * 0.14 + h) ins = false;
+        }
+        return ins;
+      };
+      const lab = s >= 120;  // leave a clear band behind each tile's name on the large view
+      fn = (x, y) => {
+        for (let k = 0; k < 4; k++) {
+          if (!inTile(k, x, y)) continue;
+          if (lab && Math.abs(x - (tl[k][0] + s / 2)) < s * 0.4 && Math.abs(y - (tl[k][1] + s / 2)) < pitch * 1.3) return -1;
+          return k;
+        }
+        return -1;
+      };
+      x0 -= b.w * 0.3; x1 += b.w * 0.3; y0 -= b.h * 0.3; y1 += b.h * 0.3;
+    }
+    const pts = [];
+    const ox = b.x + pitch / 2, oy = b.y + pitch / 2;
+    const q0 = Math.floor((x0 - ox) / pitch), q1 = Math.ceil((x1 - ox) / pitch);
+    const r0 = Math.floor((y0 - oy) / pitch), r1 = Math.ceil((y1 - oy) / pitch);
+    for (let r = r0; r <= r1; r++) {
+      for (let q = q0; q <= q1; q++) {
+        const x = ox + q * pitch, y = oy + r * pitch;
+        const k = fn(x, y);
+        if (k >= 0) pts.push([x, y, k]);
+      }
+    }
+    return { pts, rad: Math.max(0.7, pitch * 0.3) };
+  }
+
+  // Each part flashes its color as it arrives, then settles to the same neutral as the map.
+  dotsDraw(ctx, d, a, w) {
+    ctx.fillStyle = this.ink(0.4 * a);
+    ctx.beginPath();
+    d.pts.forEach((p) => { if (w[p[2]] < 0.05) { ctx.moveTo(p[0] + d.rad, p[1]); ctx.arc(p[0], p[1], d.rad, 0, Math.PI * 2); } });
+    ctx.fill();
+    for (let k = 0; k < 4; k++) {
+      if (w[k] < 0.05) continue;
+      const rr = d.rad * (1 + 0.3 * w[k]);
+      ctx.fillStyle = this.rgba(this.pcol(k), a * (0.45 + 0.55 * w[k]));
+      ctx.beginPath();
+      d.pts.forEach((p) => { if (p[2] === k) { ctx.moveTo(p[0] + rr, p[1]); ctx.arc(p[0], p[1], rr, 0, Math.PI * 2); } });
+      ctx.fill();
+    }
+  }
+
+  flash(t, starts, len) {
+    return starts.map((s0) => { const u = (t - s0) / len; return u > 0 && u < 1 ? Math.sin(Math.PI * u) : 0; });
+  }
+
+  drawPie(ctx, b, t, a) {
+    let c0 = 0;
+    const st = this.pie.map((v) => { const x = c0 / 1.5; c0 += v[1]; return x; });
+    this.dotsDraw(ctx, this.shapeDots(1, b, t), a, this.flash(t, st, 0.4));
+    if (b.w <= 340) return;
+    const p = this.pieGeom(b);
+    const sweep = this.ease(this.clamp(t * 1.5)) * Math.PI * 2;
+    let cum = 0;
+    for (let i = 0; i < this.pie.length; i++) {
+      const s = cum * Math.PI * 2;
+      cum += this.pie[i][1];
+      const midA = (s + cum * Math.PI * 2) / 2;
+      if (sweep < midA) continue;
+      const mid = midA - Math.PI / 2;
+      const lx = p.cx + Math.cos(mid) * (p.R + 16), ly = p.cy + Math.sin(mid) * (p.R + 16);
+      this.label(ctx, this.pie[i][0].toUpperCase(), lx, ly, a, Math.cos(mid) >= 0 ? 'left' : 'right', this.T.ink);
+    }
+  }
+
+  drawBars(ctx, b, t, a) {
+    this.dotsDraw(ctx, this.shapeDots(2, b, t), a, this.flash(t, [0, 0.08, 0.16, 0.24], 0.45));
+    if (b.w <= 340) return;
+    const g = this.barGeom(b);
+    for (let i = 0; i < this.bars.length; i++) {
+      const y = g.y + g.rh * i + g.rh / 2;
+      this.label(ctx, this.bars[i][0].toUpperCase(), g.x0 - 14, y, a * this.clamp(t * 3 - i * 0.3), 'right', this.T.ink);
+    }
+  }
+
+  drawTiles(ctx, b, t, a) {
+    this.dotsDraw(ctx, this.shapeDots(3, b, t), a, this.flash(t, [0.15, 0.22, 0.29, 0.36], 0.5));
+    const g = this.tileGeom(b);
+    if (g.s < 120) return;
+    const la = a * this.clamp(t * 1.4 - 0.6);
+    for (let i = 0; i < 4; i++) {
+      this.label(ctx, this.tiles[i].toUpperCase(), g.x + (i % 2) * g.s + g.s / 2, g.y + (i >> 1) * g.s + g.s / 2, la, 'center', this.T.ink);
+    }
+  }
+
+  puzzleSlots(g) {
+    const reg = g.reg, gx = reg.w * 0.05, gy = Math.max(22, reg.h * 0.07);
+    const slots = [];
+    for (let i = 0; i < 4; i++) {
+      const col = i % 2, row = i >> 1;
+      slots.push({ x: reg.x + col * reg.w / 2 + gx / 2, y: reg.y + row * reg.h / 2 + gy, w: reg.w / 2 - gx, h: reg.h / 2 - gy * 1.4 });
+    }
+    return { slots, big: { x: reg.x + reg.w * 0.04, y: reg.y + reg.h * 0.1, w: reg.w * 0.92, h: reg.h * 0.8 } };
+  }
+
+  // Start points for the cloud: sampled from the assembled pieces, so the shapes dissolve into it.
+  layoutPuzzle(g) {
+    const r = this.rng(11);
+    const S = this.puzzleSlots(g).slots;
+    const cache = [];
+    for (let i = 0; i < this.parts.length; i++) {
+      const p = this.parts[i], v = i % 4, b = S[v];
+      let x, y;
+      if (v === 0) {
+        const m = this.mapBox(b), d = this.mapDots[Math.floor(r() * this.mapDots.length)];
+        x = m.x + d[0] * m.w; y = m.y + d[1] * m.h;
+      } else {
+        const ds = cache[v] || (cache[v] = this.shapeDots(v, b, 1).pts);
+        const d = ds[Math.floor(r() * ds.length)];
+        x = d[0]; y = d[1];
+      }
+      p.jx = x; p.jy = y;
+    }
+  }
+
+  drawPuzzle(ctx, g, el, fade) {
+    const P = this.puzzleSlots(g);
+    const fns = [this.drawMap, this.drawPie, this.drawBars, this.drawTiles];
+    const lerp = (a, b, k) => a + (b - a) * k;
+    let activeBig = false;
+    const st = [];
+    for (let i = 0; i < 4; i++) {
+      const D = this.SEQ_D[i], local = el - this.SEQ_S[i];
+      const m = this.ease(this.clamp((local - D * 0.95) / 450));
+      st.push({ local, m });
+      if (local >= 0 && m < 1) activeBig = true;
+    }
+    for (let i = 0; i < 4; i++) {
+      const s = st[i];
+      if (s.local < 0) continue;
+      const big = P.big, sl = P.slots[i];
+      const b = { x: lerp(big.x, sl.x, s.m), y: lerp(big.y, sl.y, s.m), w: lerp(big.w, sl.w, s.m), h: lerp(big.h, sl.h, s.m) };
+      const inA = i === 0 ? Math.max(0.35, this.clamp(s.local / 250)) : this.clamp(s.local / 250);
+      const settled = s.m >= 1;
+      const a = fade * inA * (settled ? (activeBig ? 0.375 : 0.94) : 1);
+      fns[i].call(this, ctx, b, this.clamp(s.local / (this.SEQ_D[i] * 0.85)), a);
+      this.label(ctx, this.vigNames[i], b.x, b.y - 10, a * (settled ? 0.9 : 1));
+    }
+  }
+
+  // Judgment-call labels: try each marker on the path and four sides of it, keep last frame's spot
+  // while it stays clear, otherwise take the first clear spot (or the least crowded one).
+  placeCalls(ctx, jl) {
+    ctx.font = '600 ' + this.T.labelSize + 'px ' + this.T.font;
+    const h = this.T.labelSize + 6;
+    const hit = (b, o) => Math.max(0, Math.min(b[2], o[2]) - Math.max(b[0], o[0]) + 4) * Math.max(0, Math.min(b[3], o[3]) - Math.max(b[1], o[1]) + 4);
+    const cost = (b) => this._occ.reduce((sum, o) => sum + hit(b, o), 0);
+    this.jlPrev = this.jlPrev || {};
+    const byPath = {};
+    jl.forEach((c) => { (byPath[c.hk] = byPath[c.hk] || []).push(c); });
+    Object.keys(byPath).map(Number).sort((a, b) => a - b).forEach((hk) => {
+      const txt = this.calls[hk], w = ctx.measureText(txt).width;
+      const cands = [];
+      byPath[hk].forEach((c) => {
+        [[1, -1], [1, 1], [-1, -1], [-1, 1]].forEach((d, di) => {
+          const x = c.x + d[0] * 10, y = c.y + d[1] * 13;
+          const box = d[0] > 0 ? [x, y - h / 2, x + w, y + h / 2] : [x - w, y - h / 2, x, y + h / 2];
+          cands.push({ key: c.mi + ':' + di, x: x, y: y, align: d[0] > 0 ? 'left' : 'right', box: box, a: c.a });
+        });
+      });
+      cands.forEach((c) => { c.cost = cost(c.box); });
+      const prev = cands.find((c) => c.key === this.jlPrev[hk]);
+      let pick = prev && prev.cost === 0 ? prev : cands.find((c) => c.cost === 0);
+      if (!pick) pick = cands.reduce((m, c) => (c.cost < m.cost ? c : m), cands[0]);
+      this.jlPrev[hk] = pick.key;
+      this._occ.push(pick.box);
+      this.label(ctx, txt, pick.x, pick.y, pick.a, pick.align, this.T.ink);
+    });
+  }
+
+  beatAt(el) {
+    const T = this.TL;
+    const marks = T.L.concat([T.OUT, T.TEXT]);
+    let b = 0;
+    for (let i = 0; i < marks.length; i++) if (el >= marks[i]) b = i + 1;
+    return b;
+  }
+
+  // The hero's own clock, which stands still while paused.
+  hnow(now) { return (this.paused ? this.pauseAt : now) - this.accum; }
+
+  // The opening question's picture: the route so far, drawn in, stopping where you are. The road ahead stays grey.
+  routeGeo(g) {
+    const wide = g.W >= 1000;
+    const box = wide ? { x: g.W * 0.6, y: g.H * 0.2, w: g.W * 0.35, h: g.H * 0.62 } : { x: g.W * 0.08, y: g.H * 0.42, w: g.W * 0.84, h: g.H * 0.5 };
+    if (this._rg && this._rg.W === g.W && this._rg.H === g.H) return this._rg;
+    const P = [[0.02, 0.96], [0.2, 0.8], [0.1, 0.6], [0.3, 0.46], [0.47, 0.62], [0.58, 0.44], [0.72, 0.3], [0.62, 0.15], [0.84, 0.1], [0.98, 0.03]];
+    const HERE = 5;
+    const pts = [], idx = [];
+    const cr = (a, b, c, d, t) => 0.5 * (2 * b + (-a + c) * t + (2 * a - 5 * b + 4 * c - d) * t * t + (-a + 3 * b - 3 * c + d) * t * t * t);
+    for (let i = 0; i < P.length - 1; i++) {
+      idx.push(pts.length);
+      const p0 = P[Math.max(0, i - 1)], p1 = P[i], p2 = P[i + 1], p3 = P[Math.min(P.length - 1, i + 2)];
+      for (let k = 0; k < 24; k++) {
+        const t = k / 24;
+        pts.push([box.x + cr(p0[0], p1[0], p2[0], p3[0], t) * box.w, box.y + cr(p0[1], p1[1], p2[1], p3[1], t) * box.h]);
+      }
+    }
+    idx.push(pts.length);
+    pts.push([box.x + P[P.length - 1][0] * box.w, box.y + P[P.length - 1][1] * box.h]);
+    this._rg = { W: g.W, H: g.H, wide, pts, here: idx[HERE], marks: [[idx[0], 'QUARTER START', 0], [idx[3], 'LAST RE-FORECAST', 1]] };
+    return this._rg;
+  }
+  drawRoute(ctx, g, el) {
+    const T = this.TL;
+    const on = this.clamp((el - T.MAP) / 400) * (1 - this.clamp((el - (T.C[0] - 900)) / 800));
+    if (on <= 0) return;
+    const R = this.routeGeo(g), pts = R.pts, A = on * (R.wide ? 1 : 0.35);
+    const grow = this.reduce ? 1 : this.clamp((el - T.MAP) / 2600);
+    // Once you are here, the road behind dulls away: only today and the quarter's end are left.
+    const dull = this.reduce ? 1 : this.clamp((el - T.DULL) / 1800), keep = 1 - dull;
+    // The trail leaves the way it came: its tail retraces the route from the start up to today.
+    const from = Math.min(R.here, Math.round(R.here * this.ease(dull)));
+    const ease = this.ease(grow);
+    const upto = Math.max(1, Math.round(R.here * ease));
+    const amber = '255,184,41';
+    ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    // The road ahead: grey, broken, and fading out before it reaches the end.
+    const ahead = this.clamp((grow - 0.85) / 0.15);
+    if (ahead > 0) {
+      ctx.setLineDash([3, 7]);
+      ctx.lineWidth = 1.4;
+      ctx.strokeStyle = 'rgba(' + this.T.mute + ',' + (A * ahead * 0.4 * keep) + ')';
+      ctx.beginPath(); ctx.moveTo(pts[R.here][0], pts[R.here][1]);
+      for (let i = R.here + 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      const e = pts[pts.length - 1];
+      ctx.strokeStyle = 'rgba(' + this.T.mute + ',' + (A * ahead * 0.35) + ')';
+      ctx.lineWidth = 1; ctx.beginPath(); ctx.arc(e[0], e[1], 7, 0, Math.PI * 2); ctx.stroke();
+      this.label(ctx, 'QUARTER END  ?', e[0] - 14, e[1], A * ahead * 0.45, 'right');
+    }
+    // The route so far: drawn in, in the question's amber.
+    ctx.strokeStyle = 'rgba(' + amber + ',' + (A * 0.9) + ')';
+    ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(pts[from][0], pts[from][1]);
+    for (let i = from + 1; i <= upto; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+    ctx.stroke();
+    R.marks.forEach((m) => {
+      if (m[0] > upto || m[0] < from) return;
+      const q = pts[m[0]];
+      ctx.fillStyle = 'rgba(' + amber + ',' + (A * 0.9) + ')';
+      ctx.beginPath(); ctx.arc(q[0], q[1], 3.5, 0, Math.PI * 2); ctx.fill();
+      this.label(ctx, m[1], q[0] + (m[2] ? -12 : 12), q[1], A * 0.55, m[2] ? 'right' : 'left');
+    });
+    // You are here: the line stops, and a slow pulse marks the spot.
+    if (grow >= 0.98) {
+      const h = pts[R.here];
+      const ph = this.reduce ? 0.4 : ((el - T.MAP) % 2000) / 2000;
+      ctx.strokeStyle = 'rgba(' + amber + ',' + (A * (1 - ph) * 0.7) + ')';
+      ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(h[0], h[1], 6 + ph * 18, 0, Math.PI * 2); ctx.stroke();
+      ctx.fillStyle = 'rgba(' + amber + ',' + A + ')';
+      ctx.beginPath(); ctx.arc(h[0], h[1], 5.5, 0, Math.PI * 2); ctx.fill();
+      this.label(ctx, 'YOU ARE HERE \u00b7 WEEK 10', h[0] + 16, h[1] + 1, A * 0.95, 'left', amber);
+    } else {
+      const h = pts[upto];
+      ctx.fillStyle = 'rgba(' + amber + ',' + A + ')';
+      ctx.beginPath(); ctx.arc(h[0], h[1], 3.5, 0, Math.PI * 2); ctx.fill();
+    }
+  }
+
+  drawHero(rnow) {
+    const now = this.hnow(rnow);
+    const c = this.hero;
+    const b = c.el.getBoundingClientRect();
+    if (b.bottom < 0) return;
+    const ctx = this.ctxFor(c);
+    const g = c.g;
+    const T = this.TL;
+    const el = this.reduce ? 1e9 : now - this.t0;
+    // The dashboard sets the scene, then recedes so each line at the table carries the moment.
+    const fadeIn = this.clamp(el / 350);
+    const pa = fadeIn * 0.6 * (1 - this.clamp((el - T.DASH[0]) / (T.DASH[1] - T.DASH[0])));
+    if (pa > 0) this.drawPanels(ctx, g, pa);
+    this.drawRoute(ctx, g, el);
+    const k = this.clamp((el - T.B_END) / (T.M_END - T.B_END));
+    const pk = this.clamp((el - T.P_START) / (T.P_END - T.P_START));
+    this.drawScene(ctx, g, now, {
+      show: el >= T.B_END ? 1 : 0,
+      lift: k, tight: k, links: 0, ghost: 0,
+      extend: pk, converge: 1, align: pk, risk: 0,
+      dest: this.clamp((pk - 0.55) / 0.45),
+      drift: el > T.P_END, yours: 0
+    });
+    const beat = this.beatAt(el);
+    // Then it goes public: the headlines land one at a time.
+    const clip = el >= T.OUT ? 0 : T.C.filter((m) => el >= m).length;
+    const q = el >= T.Q && el < T.QOUT ? 1 : 0;
+    const f = el >= T.F && el < T.OUT ? 1 : 0;
+    if (beat !== this.state.beat || clip !== this.state.clip || q !== this.state.q || f !== this.state.f) this.setState({ beat: beat, clip: clip, q: q, f: f });
+  }
+
+  drawJourney(now) {
+    const c = this.jour;
+    const ctx = this.ctxFor(c);
+    const g = c.g;
+    const p = this.p;
+    const C = (a, b) => this.clamp((p - a) / b);
+    // The handoff from 01 to 02 follows 02's heading on screen, not the chapter count, so the puzzle
+    // owns the frame for as long as the reader is still in 01.
+    const h02 = this.stepsEl && this.stepsEl.children[1] ? this.stepsEl.children[1].querySelector('h2') : null;
+    const vh0 = window.innerHeight || 800;
+    const q = h02 ? this.clamp((vh0 * 0.85 - h02.getBoundingClientRect().top) / (vh0 * 0.3)) : C(0.9, 0.5);
+    const Q = (a, b) => this.clamp((q - a) / b);
+    for (let i = 0; i < this.amb.length; i++) {
+      const a = this.amb[i];
+      const yy = ((a.y - now * 0.000006 * a.sp) % 1 + 1) % 1;
+      // Background drift stays quiet and neutral behind the puzzle, and only takes color once the clusters form.
+      const ab = 0.3 * (0.4 + 0.6 * Q(0.3, 0.6)), ck = C(1.1, 0.8);
+      if (ck < 1) this.dot(ctx, a.x * g.W, yy * g.H, ab * (1 - ck), a.size, this.T.ink, a.rot);
+      if (ck > 0) this.dot(ctx, a.x * g.W, yy * g.H, ab * ck, a.size, a.col, a.rot);
+    }
+    // 01 opens on the pieces of the revenue puzzle; they roll in once and hold, clean, while the reader is in 01.
+    // Only as 02 comes in do they dissolve into the cloud (scroll-driven, never on a timer).
+    const vr = c.el.getBoundingClientRect();
+    const vh = window.innerHeight || 800;
+    // Start only when the reader is done with the hero (it has landed, was skipped, or was scrolled past)
+    // and has actually scrolled to 01, with its heading in the upper half of the screen.
+    const hb = this.hero.el ? this.hero.el.getBoundingClientRect() : null;
+    const heroDone = this.state.beat >= 8 || (hb && hb.bottom < vh * 0.3);
+    const h01 = this.stepsEl && this.stepsEl.children[0] ? this.stepsEl.children[0].querySelector('h2') : null;
+    // The graphic itself must be (almost) fully on screen, not just the heading.
+    const shown = (Math.min(vr.bottom, vh) - Math.max(vr.top, 0)) / Math.max(1, Math.min(vr.height, vh));
+    const atOne = shown >= 0.85 && (h01 ? h01.getBoundingClientRect().top < vh * 0.85 : true);
+    if (heroDone && atOne && vr.bottom > 0) { if (!this.seq0) this.seq0 = now; }
+    else if (vr.top >= vh) this.seq0 = 0;
+    const seqEl = this.reduce ? 1e9 : (this.seq0 ? now - this.seq0 : 0);
+    const dash = 1 - Q(0, 0.5);
+    if (dash > 0 && (this.seq0 || this.reduce)) this.drawPuzzle(ctx, g, seqEl, dash * 0.95);
+    else if (dash > 0) {
+      // Waiting: a faint, still map, so nothing competes with the hero.
+      const PZ = this.puzzleSlots(g);
+      this.drawMap(ctx, PZ.big, 0, 0.35 * dash);
+      this.label(ctx, this.vigNames[0], PZ.big.x, PZ.big.y - 10, 0.35 * dash);
+    }
+    // 08: the formation steps back and its marks gather into a brain, the team behind it.
+    const brain = C(7.0, 0.8), fade = 1 - C(7.0, 0.55);
+    this._ga = fade;
+    ctx.globalAlpha = fade;
+    this._rec = []; this._recOnly = brain > 0;
+    this.drawScene(ctx, g, now, {
+      src: true,
+      show: Q(0.3, 0.5),
+      lift: C(1.3, 0.45) * Q(0.3, 0.5),
+      tight: C(1.5, 0.55),
+      links: C(1.55, 0.5) * (1 - 0.8 * C(2.2, 0.6)),
+      ghost: Math.max(C(1.4, 0.6) * (1 - 0.8 * C(2.3, 0.6)), C(6.1, 0.6)),
+      extend: C(2.05, 0.8),
+      converge: C(4.1, 0.9),
+      risk: C(3.1, 0.5) * (1 - C(4.0, 0.4)),
+      judge: C(3.15, 0.5) * (1 - C(4.05, 0.45)),
+      align: C(4.05, 0.9),
+      dest: C(5.05, 0.6),
+      drift: p > 5.5,
+      yours: C(6.1, 0.7),
+      bright: 1 + 0.25 * C(6.1, 0.7)
+    });
+    ctx.globalAlpha = 1; this._ga = 1;
+    const rec = this._rec; this._rec = null; this._recOnly = false;
+    // Snapshot 07's marks as 08 begins; those same marks recompose into the brain.
+    if (brain <= 0) this._snap = null;
+    else if (!this._snap || !this._snap.length) this._snap = rec.slice().sort((a, b) => a.x - b.x || a.y - b.y);
+    if (brain > 0) this.drawBrain(ctx, g, now, brain, C(7.4, 0.5), this._snap);
+    // Each seat's color, once the formation forms.
+    const lg = C(4.0, 0.6) * (1 - C(4.85, 0.35));
+    if (lg > 0) {
+      let lx = g.lx;
+      const ly = g.H - 36;
+      ctx.font = '600 11px ' + this.T.font;
+      ctx.textBaseline = 'middle';
+      this.T.personas.forEach((pp) => {
+        this.dot(ctx, lx + 4, ly, 0.95 * lg, 2.6, pp[1], 0);
+        ctx.fillStyle = 'rgba(' + this.T.ink + ',' + (0.8 * lg) + ')';
+        const nm = pp[0].toUpperCase();
+        ctx.fillText(nm, lx + 16, ly);
+        lx += 28 + ctx.measureText(nm).width;
+      });
+    }
+    const ch = p < 0.03 || p > 7.97 ? -1 : Math.min(7, Math.floor(p));
+    if (ch !== this.state.ch) this.setState({ ch: ch });
+    const names = ['THE REVENUE PUZZLE', 'THE SHAPE OF YOUR BUSINESS', 'A THOUSAND PATHS', 'JUDGMENT & ACTION', 'FORMATION', 'THE LANDING', 'YOURS', 'THE TEAM'];
+    const idx = Math.max(0, Math.min(7, Math.floor(p)));
+    ctx.font = '600 ' + (this.T.labelSize + 1) + 'px ' + this.T.font;
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = this.ink(0.85);
+    ctx.fillText('0' + (idx + 1) + ' · ' + names[idx], g.lx, g.ly);
+  }
+
+  renderVals() {
+    const b = this.state.beat;
+    const show = (i) => (b < i || b >= 7 ? 0 : b === i ? 1 : 0.32);
+    return {
+      setHero: this.setHero,
+      setJourney: this.setJourney,
+      setSteps: this.setSteps,
+      togglePlay: this.togglePlay,
+      playLabel: this.state.beat >= 8 ? this.PL[2] : this.state.paused ? this.PL[1] : this.PL[0],
+      skip: this.skip,
+      c1: this.state.clip >= 1 ? 1 : 0, c2: this.state.clip >= 2 ? 1 : 0, c3: this.state.clip >= 3 ? 1 : 0,
+      c1y: this.state.clip >= 1 ? 0 : 18, c2y: this.state.clip >= 2 ? 0 : 18, c3y: this.state.clip >= 3 ? 0 : 18,
+      oq: this.state.q,
+      of: this.state.f || 0,
+      chOn: this.state.ch >= 0 ? 1 : 0,
+      cc1: this.state.ch === 0 ? '#ffb829' : '#5a5a5a', cw1: this.state.ch === 0 ? 28 : 12,
+      cc2: this.state.ch === 1 ? '#ffb829' : '#5a5a5a', cw2: this.state.ch === 1 ? 28 : 12,
+      cc3: this.state.ch === 2 ? '#ffb829' : '#5a5a5a', cw3: this.state.ch === 2 ? 28 : 12,
+      cc4: this.state.ch === 3 ? '#ffb829' : '#5a5a5a', cw4: this.state.ch === 3 ? 28 : 12,
+      cc5: this.state.ch === 4 ? '#ffb829' : '#5a5a5a', cw5: this.state.ch === 4 ? 28 : 12,
+      cc6: this.state.ch === 5 ? '#ffb829' : '#5a5a5a', cw6: this.state.ch === 5 ? 28 : 12,
+      cc7: this.state.ch === 6 ? '#ffb829' : '#5a5a5a', cw7: this.state.ch === 6 ? 28 : 12,
+      cc8: this.state.ch === 7 ? '#ffb829' : '#5a5a5a', cw8: this.state.ch === 7 ? 28 : 12,
+      o1: show(1), o2: show(2), o3: show(3), o4: show(4), o5: show(5), o6: show(6),
+      overlayOpacity: b < 7 ? 1 : 0,
+      skipDisplay: b < 7 ? 'inline-block' : 'none',
+      heroOpacity: b >= 8 ? 1 : 0,
+      heroShift: b >= 8 ? 0 : 14,
+      phaseLabel: b < 7 ? 'Before · the quarter-end table' : 'After · where the quarter can land'
+    };
+  }
+}7:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"body{margin:0;background:#000000}\na{color:#9a9a9a;text-decoration:none}\na:hover{color:#ffffff}\n::selection{background:#8052ff;color:#ffffff}\nbutton:focus-visible,a:focus-visible{outline:2px solid #ffb829;outline-offset:3px}\n@media (max-width: 900px){.gx-bg{opacity:0.45}}\n@media (max-width: 1000px){.gx-clips{display:none !important}}\n@media (max-width: 1360px){.gx-chapters{display:none}}\n/* wide screens: the closing line stays on one line, and extra space above it and under the opener drops it below the news clips */\n@media (min-width: 1400px){.gx-one{white-space:nowrap}.gx-qhead{margin-bottom:70px !important}.gx-lose{margin-top:62px !important}}","js":"$b"}],["$Lc"],"$Ld"]}],"p":"$@e","v":null,"s":"$6"}}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gaineo: land the quarter you planned"}],["$","meta","1",{"name":"description","content":"Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L14","3",{}]]}]}],null]}],null]}],"p":"$@15","v":null,"s":"$6"}},"a":"$@16","u":"$@17","b":"VtF7pwbhsvIxj4rDSNw6a"}
+18:I[13693,["$2"],"OutletBoundary"]
+c:["$","script","script-0",{"src":"/_next/static/chunks/2vmo25ixizm2q.js","async":true}]
+d:["$","$L18",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+6:300
+19:null
+17:true
+6:C
+16:0
+5:"$undefined"
+15:"$undefined"
+e:"$undefined"
