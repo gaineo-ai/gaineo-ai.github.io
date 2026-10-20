@@ -2,18 +2,18 @@
 2:"/_next/static/chunks/3727-02i72m06.js"
 3:I[42194,["$2"],"default"]
 4:I[5817,["$2"],"default"]
-8:"/_next/static/chunks/2vmo25ixizm2q.js"
+8:"/_next/static/chunks/2xp91zv-mruc8.js"
 9:I[90973,["$2","$8"],"default"]
-f:"ViewportBoundary"
-10:I[13693,["$2"],"$f"]
-11:"MetadataBoundary"
-12:I[13693,["$2"],"$11"]
-13:"$Sreact.suspense"
-14:I[14017,["$2"],"IconMark"]
+10:"ViewportBoundary"
+11:I[13693,["$2"],"$10"]
+12:"MetadataBoundary"
+13:I[13693,["$2"],"$12"]
+14:"$Sreact.suspense"
+15:I[14017,["$2"],"IconMark"]
 :HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
 6:X
-a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+a:T81d7,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
 
   <!-- NAV -->
   <header>
@@ -21,7 +21,9 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
       <a href="#top" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
         <img src="/assets/brand-logo.png" alt="Gaineo" width="97" height="32" style="display: block">
       </a>
-      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
+      <input type="checkbox" id="gx-nav" class="gx-navtoggle" aria-label="Menu">
+      <label for="gx-nav" class="gx-navbtn" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="gx-navlinks" style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
         <a href="#top" aria-current="page" style="color: #ffffff">Home</a>
         <a href="/platform/">Platform</a>
         <a href="/manifesto/">Manifesto</a>
@@ -147,10 +149,10 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
           </div>
       </div>
     </div>
-    <div style="position: sticky; top: 0; height: 100vh; z-index: 0">
+    <div class="gx-jband" style="position: sticky; top: 0; height: 100vh; z-index: 0">
       <canvas class="gx-bg" data-dc-ref="setJourney" aria-hidden="true" style="width: 100%; height: 100%; display: block"></canvas>
     </div>
-    <div style="position: relative; z-index: 1; margin-top: -100vh; max-width: 1280px; margin-left: auto; margin-right: auto; padding: 0 36px; box-sizing: border-box">
+    <div class="gx-jtext" style="position: relative; z-index: 1; margin-top: -100vh; max-width: 1280px; margin-left: auto; margin-right: auto; padding: 0 36px; box-sizing: border-box">
       <div id="thesis" data-dc-ref="setSteps" style="max-width: 500px; padding: 0 0 160px">
 
         <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
@@ -277,7 +279,32 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
     </div>
   </footer>
 
-</div>b:Tde91,class Component extends DCLogic {
+</div>b:T96c,body{margin:0;background:#000000}
+a{color:#9a9a9a;text-decoration:none}
+a:hover{color:#ffffff}
+::selection{background:#8052ff;color:#ffffff}
+button:focus-visible,a:focus-visible{outline:2px solid #ffb829;outline-offset:3px}
+@media (max-width: 900px){.gx-bg{opacity:0.45}}
+@media (max-width: 700px){.gx-jband{height:46vh !important;z-index:2 !important;background:#000000}.gx-jband::after{content:"";position:absolute;left:0;right:0;bottom:-32px;height:32px;background:linear-gradient(#000000,rgba(0,0,0,0));pointer-events:none}.gx-jband .gx-bg{opacity:1 !important}.gx-jtext{margin-top:0 !important}#thesis > div{min-height:72vh !important;padding-top:40px !important;text-shadow:none !important}}
+@media (max-width: 1000px){.gx-clips{display:none !important}}
+@media (max-width: 1360px){.gx-chapters{display:none}}
+/* wide screens: the closing line stays on one line, and extra space above it and under the opener drops it below the news clips */
+@media (min-width: 1400px){.gx-one{white-space:nowrap}.gx-qhead{margin-bottom:70px !important}.gx-lose{margin-top:62px !important}}
+.gx-navtoggle{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.gx-navbtn{display:none}
+@media (max-width: 700px){
+nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
+.gx-navbtn{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;margin-right:-10px;cursor:pointer;border-radius:8px}
+.gx-navbtn span{display:block;width:22px;height:2px;border-radius:1px;background:#ffffff;transition:transform 250ms ease, opacity 200ms ease}
+.gx-navtoggle:focus-visible + .gx-navbtn{outline:2px solid #ffb829;outline-offset:2px}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(2){opacity:0}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.gx-navlinks{display:none !important;position:absolute;top:100%;left:0;right:0;z-index:60;flex-direction:column;align-items:flex-start !important;gap:0 !important;padding:4px 36px 28px;background:#000000;border-bottom:1px solid #1c1c1c;box-shadow:0 24px 40px rgba(0,0,0,0.6)}
+.gx-navlinks a{display:block;padding:14px 0;font-size:15px}
+.gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
+.gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
+}c:Te1d0,class Component extends DCLogic {
   constructor(props) {
     super(props);
     this.T = {
@@ -498,11 +525,12 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
       const narrow = W < 760;
       c.g = {
         W, H, narrow,
-        reg: narrow ? { x: W * 0.06, y: H * 0.1, w: W * 0.88, h: H * 0.38 } : { x: W * 0.08, y: H * 0.07, w: W * 0.84, h: H * 0.45 },
-        cx: narrow ? W * 0.26 : W * 0.25, cy: narrow ? H * 0.25 : H * 0.27,
-        R: Math.min(W, H) * (narrow ? 0.15 : 0.145),
-        dx: narrow ? W * 0.9 : W * 0.86, dy: narrow ? H * 0.27 : H * 0.27,
-        qTop: H * 0.07, qBot: H * (narrow ? 0.48 : 0.5),
+        // Phones: the dashboard sits below the opening question; the closing formation sits above the headline.
+        reg: narrow ? { x: W * 0.06, y: H * 0.45, w: W * 0.88, h: H * 0.4 } : { x: W * 0.08, y: H * 0.07, w: W * 0.84, h: H * 0.45 },
+        cx: narrow ? W * 0.3 : W * 0.25, cy: narrow ? H * 0.185 : H * 0.27,
+        R: Math.min(W, H) * (narrow ? 0.12 : 0.145),
+        dx: narrow ? W * 0.9 : W * 0.86, dy: narrow ? H * 0.185 : H * 0.27,
+        qTop: H * (narrow ? 0.1 : 0.07), qBot: H * (narrow ? 0.28 : 0.5),
         gx: W * 0.02, lx: 18, ly: 22
       };
     } else if (this.T.layout === 'bg' && W >= 900) {
@@ -514,6 +542,17 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
         dx: W * 0.94, dy: H * 0.5,
         qTop: H * 0.1, qBot: H * 0.9,
         gx: W * 0.42, lx: W * 0.46, ly: 32
+      };
+    } else if (this.T.layout === 'bg' && W < 700) {
+      // Phones: the visual is pinned in a band above the text, so it gets the whole band.
+      c.g = {
+        W, H, narrow: true,
+        reg: { x: W * 0.05, y: H * 0.14, w: W * 0.9, h: H * 0.78 },
+        cx: W * 0.42, cy: H * 0.56,
+        R: Math.min(W, H) * 0.3,
+        dx: W * 0.92, dy: H * 0.56,
+        qTop: H * 0.12, qBot: H * 0.96,
+        gx: W * 0.02, lx: 16, ly: 20
       };
     } else if (this.T.layout === 'bg') {
       c.g = {
@@ -667,7 +706,7 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
     // Lobe colors: the same seats as the formation, now thinking as one.
     const P = this.T.palette;
     const lobe = (x, y) => (y > 0.3 && x > 0.25) ? P[4] : x < -0.42 ? P[0] : y > 0.12 ? P[1] : x > 0.42 ? P[3] : P[2];
-    const S = g.narrow ? g.W * 0.4 : g.R * 1.55, cx = g.narrow ? g.W * 0.5 : g.cx + S * 0.05, cy = g.narrow ? g.H * 0.74 : g.cy - S * 0.06;
+    const S = g.narrow ? Math.min(g.W * 0.4, g.H * 0.5) : g.R * 1.55, cx = g.narrow ? g.W * 0.5 : g.cx + S * 0.05, cy = g.narrow ? g.H * 0.54 : g.cy - S * 0.06;
     const pitch = g.narrow ? 0.1 : 0.075, pts = [];
     for (let y = -0.72; y <= 0.82; y += pitch * 0.87) {
       for (let x = -1.02; x <= 1.02; x += pitch) {
@@ -1263,7 +1302,7 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
   // The opening question's picture: the route so far, drawn in, stopping where you are. The road ahead stays grey.
   routeGeo(g) {
     const wide = g.W >= 1000;
-    const box = wide ? { x: g.W * 0.6, y: g.H * 0.2, w: g.W * 0.35, h: g.H * 0.62 } : { x: g.W * 0.08, y: g.H * 0.42, w: g.W * 0.84, h: g.H * 0.5 };
+    const box = wide ? { x: g.W * 0.6, y: g.H * 0.2, w: g.W * 0.35, h: g.H * 0.62 } : g.W < 760 ? { x: g.W * 0.1, y: g.H * 0.46, w: g.W * 0.8, h: g.H * 0.42 } : { x: g.W * 0.08, y: g.H * 0.42, w: g.W * 0.84, h: g.H * 0.5 };
     if (this._rg && this._rg.W === g.W && this._rg.H === g.H) return this._rg;
     const P = [[0.02, 0.96], [0.2, 0.8], [0.1, 0.6], [0.3, 0.46], [0.47, 0.62], [0.58, 0.44], [0.72, 0.3], [0.62, 0.15], [0.84, 0.1], [0.98, 0.03]];
     const HERE = 5;
@@ -1284,9 +1323,11 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
   }
   drawRoute(ctx, g, el) {
     const T = this.TL;
-    const on = this.clamp((el - T.MAP) / 400) * (1 - this.clamp((el - (T.C[0] - 900)) / 800));
+    // On phones the questions take the lower half, so the map clears as they arrive.
+    const phone = g.W < 760;
+    const on = this.clamp((el - T.MAP) / 400) * (1 - this.clamp((el - (phone ? T.F - 700 : T.C[0] - 900)) / (phone ? 600 : 800)));
     if (on <= 0) return;
-    const R = this.routeGeo(g), pts = R.pts, A = on * (R.wide ? 1 : 0.35);
+    const R = this.routeGeo(g), pts = R.pts, A = on * (R.wide || phone ? 1 : 0.35);
     const grow = this.reduce ? 1 : this.clamp((el - T.MAP) / 2600);
     // Once you are here, the road behind dulls away: only today and the quarter's end are left.
     const dull = this.reduce ? 1 : this.clamp((el - T.DULL) / 1800), keep = 1 - dull;
@@ -1498,16 +1539,16 @@ a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
       phaseLabel: b < 7 ? 'Before · the quarter-end table' : 'After · where the quarter can land'
     };
   }
-}7:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"body{margin:0;background:#000000}\na{color:#9a9a9a;text-decoration:none}\na:hover{color:#ffffff}\n::selection{background:#8052ff;color:#ffffff}\nbutton:focus-visible,a:focus-visible{outline:2px solid #ffb829;outline-offset:3px}\n@media (max-width: 900px){.gx-bg{opacity:0.45}}\n@media (max-width: 1000px){.gx-clips{display:none !important}}\n@media (max-width: 1360px){.gx-chapters{display:none}}\n/* wide screens: the closing line stays on one line, and extra space above it and under the opener drops it below the news clips */\n@media (min-width: 1400px){.gx-one{white-space:nowrap}.gx-qhead{margin-bottom:70px !important}.gx-lose{margin-top:62px !important}}","js":"$b"}],["$Lc"],"$Ld"]}],"p":"$@e","v":null,"s":"$6"}}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gaineo: land the quarter you planned"}],["$","meta","1",{"name":"description","content":"Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L14","3",{}]]}]}],null]}],null]}],"p":"$@15","v":null,"s":"$6"}},"a":"$@16","u":"$@17","b":"bUFEYJFAWm6EcqezcJlvc"}
-18:I[13693,["$2"],"OutletBoundary"]
-c:["$","script","script-0",{"src":"/_next/static/chunks/2vmo25ixizm2q.js","async":true}]
-d:["$","$L18",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+}7:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"$b","js":"$c"}],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$6"}}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gaineo: land the quarter you planned"}],["$","meta","1",{"name":"description","content":"Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L15","3",{}]]}]}],null]}],null]}],"p":"$@16","v":null,"s":"$6"}},"a":"$@17","u":"$@18","b":"xvtXYV6FtLe6qINUcVn_w"}
+19:I[13693,["$2"],"OutletBoundary"]
+d:["$","script","script-0",{"src":"/_next/static/chunks/2xp91zv-mruc8.js","async":true}]
+e:["$","$L19",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
 6:300
-19:null
-17:true
+1a:null
+18:true
 6:C
-16:0
+17:0
 5:"$undefined"
-15:"$undefined"
-e:"$undefined"
+16:"$undefined"
+f:"$undefined"

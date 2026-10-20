@@ -2,7 +2,7 @@
 2:"/_next/static/chunks/3727-02i72m06.js"
 3:I[42194,["$2"],"default"]
 4:I[5817,["$2"],"default"]
-8:"/_next/static/chunks/2vmo25ixizm2q.js"
+8:"/_next/static/chunks/2xp91zv-mruc8.js"
 9:I[90973,["$2","$8"],"default"]
 f:"ViewportBoundary"
 10:I[13693,["$2"],"$f"]
@@ -13,7 +13,7 @@ f:"ViewportBoundary"
 :HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
 6:X
-a:T716f,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+a:T7255,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
 
   <!-- NAV -->
   <header>
@@ -21,7 +21,9 @@ a:T716f,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
       <a href="/" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
         <img src="/assets/brand-logo.png" alt="Gaineo" width="97" height="32" style="display: block">
       </a>
-      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
+      <input type="checkbox" id="gx-nav" class="gx-navtoggle" aria-label="Menu">
+      <label for="gx-nav" class="gx-navbtn" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="gx-navlinks" style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
         <a href="/">Home</a>
         <a href="/platform/">Platform</a>
         <a href="/manifesto/">Manifesto</a>
@@ -78,7 +80,7 @@ a:T716f,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
     </div>
   </section>
 
-  <section id="people" aria-label="People" style="max-width: 1280px; margin: 0 auto; padding: 120px 36px; box-sizing: border-box; border-top: 1px solid #1c1c1c">
+  <section id="people" aria-label="People" style="max-width: 1280px; margin: 0 auto; padding: 120px 36px; box-sizing: border-box; border-top: 1px solid #1c1c1c; overflow-x: clip">
     <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">People</div>
     <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(36px, 4vw, 58px); line-height: 1.06; letter-spacing: -0.04em; max-width: 1080px; text-wrap: balance">The people behind Gaineo.</h2>
     <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 680px">Operators and builders who have lived the quarter-end scramble, guided by leaders from industry and the analyst community.</p>
@@ -215,7 +217,7 @@ a:T716f,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
     </div>
   </footer>
 
-</div>b:T745,body{margin:0;background:#000000}
+</div>b:Tc7a,body{margin:0;background:#000000}
 a{color:#9a9a9a;text-decoration:none}
 a:hover{color:#ffffff}
 ::selection{background:#8052ff;color:#ffffff}
@@ -238,7 +240,22 @@ summary:hover .gx-q{color:#ffb829}
 .gx-real{opacity:0;transition:opacity 450ms ease}
 .gx-ph:hover .gx-real{opacity:1}
 .gx-rc{transition:transform 700ms cubic-bezier(0.22,1,0.36,1), opacity 450ms ease;backface-visibility:hidden}
-@media (max-width: 700px){.gx-pp{grid-template-columns:minmax(0,1fr) !important;gap:18px !important;padding:22px !important;align-content:start}.gx-stage{height:1030px !important}.gx-tn{display:none}.gx-rp{width:110px !important;height:138px !important;min-height:138px !important}.gx-rc{left:0 !important;right:58px !important}.gx-rarrows{right:0 !important}}c:T8e1,class Component extends DCLogic {
+@media (max-width: 700px){.gx-pp{grid-template-columns:minmax(0,1fr) !important;gap:18px !important;padding:22px !important;align-content:start}.gx-stage{height:1110px !important}.gx-tn{display:none}.gx-rp{width:110px !important;height:138px !important;min-height:138px !important}.gx-rc{left:0 !important;right:58px !important}.gx-rarrows{right:0 !important}}
+.gx-navtoggle{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.gx-navbtn{display:none}
+@media (max-width: 700px){
+nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
+.gx-navbtn{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;margin-right:-10px;cursor:pointer;border-radius:8px}
+.gx-navbtn span{display:block;width:22px;height:2px;border-radius:1px;background:#ffffff;transition:transform 250ms ease, opacity 200ms ease}
+.gx-navtoggle:focus-visible + .gx-navbtn{outline:2px solid #ffb829;outline-offset:2px}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(2){opacity:0}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.gx-navlinks{display:none !important;position:absolute;top:100%;left:0;right:0;z-index:60;flex-direction:column;align-items:flex-start !important;gap:0 !important;padding:4px 36px 28px;background:#000000;border-bottom:1px solid #1c1c1c;box-shadow:0 24px 40px rgba(0,0,0,0.6)}
+.gx-navlinks a{display:block;padding:14px 0;font-size:15px}
+.gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
+.gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
+}c:T8e1,class Component extends DCLogic {
   constructor(props) {
     super(props);
     this.state = { sel: 0 };
@@ -283,10 +300,10 @@ summary:hover .gx-q{color:#ffb829}
   }
 }7:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"$b","js":"$c"}],["$Ld"],"$Le"]}],"p":false,"v":null}}]]
 5:[["children",{"s":"company","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$6"},"c":"$Q7"}]]
-0:{"P":null,"c":["","company",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":"$L15"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$16",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"bUFEYJFAWm6EcqezcJlvc"}
+0:{"P":null,"c":["","company",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":"$L15"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$16",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"xvtXYV6FtLe6qINUcVn_w"}
 17:I[13693,["$2"],"OutletBoundary"]
 6:C
-d:["$","script","script-0",{"src":"/_next/static/chunks/2vmo25ixizm2q.js","async":true,"nonce":"$undefined"}]
+d:["$","script","script-0",{"src":"/_next/static/chunks/2xp91zv-mruc8.js","async":true,"nonce":"$undefined"}]
 e:["$","$L17",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
 11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
 19:I[14017,["$2"],"IconMark"]

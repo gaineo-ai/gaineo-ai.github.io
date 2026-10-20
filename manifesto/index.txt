@@ -2,18 +2,18 @@
 2:"/_next/static/chunks/3727-02i72m06.js"
 3:I[42194,["$2"],"default"]
 4:I[5817,["$2"],"default"]
-8:"/_next/static/chunks/2vmo25ixizm2q.js"
+8:"/_next/static/chunks/2xp91zv-mruc8.js"
 9:I[90973,["$2","$8"],"default"]
-e:"ViewportBoundary"
-f:I[13693,["$2"],"$e"]
-11:"MetadataBoundary"
-12:I[13693,["$2"],"$11"]
-13:"$Sreact.suspense"
-15:I[35733,["$2"],"default",1]
+f:"ViewportBoundary"
+10:I[13693,["$2"],"$f"]
+12:"MetadataBoundary"
+13:I[13693,["$2"],"$12"]
+14:"$Sreact.suspense"
+16:I[35733,["$2"],"default",1]
 :HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
 6:X
-a:T634d,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+a:T6421,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
 
   <!-- NAV -->
   <header>
@@ -21,7 +21,9 @@ a:T634d,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
       <a href="/" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
         <img src="/assets/brand-logo.png" alt="Gaineo" width="97" height="32" style="display: block">
       </a>
-      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
+      <input type="checkbox" id="gx-nav" class="gx-navtoggle" aria-label="Menu">
+      <label for="gx-nav" class="gx-navbtn" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="gx-navlinks" style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
         <a href="/">Home</a>
         <a href="/platform/">Platform</a>
         <a href="#top" aria-current="page" style="color: #ffffff">Manifesto</a>
@@ -258,7 +260,35 @@ a:T634d,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
     </div>
   </footer>
 
-</div>b:T423b,class Component extends DCLogic {
+</div>b:T85a,body{margin:0;background:#000000}
+a{color:#9a9a9a;text-decoration:none}
+a:hover{color:#ffffff}
+::selection{background:#8052ff;color:#ffffff}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #ffb829;outline-offset:3px}
+summary{list-style:none;cursor:pointer}
+summary::-webkit-details-marker{display:none}
+details[open] .gx-plus{transform:rotate(45deg)}
+details[open] summary .gx-q{color:#ffb829}
+summary:hover .gx-q{color:#ffb829}
+@media (max-width: 900px){.gx-bg{opacity:0.4}.gx-grid3{grid-template-columns:minmax(0,1fr) !important}}
+@media (min-width: 901px) and (max-width: 1180px){.gx-grid3{grid-template-columns:repeat(2, minmax(0, 1fr)) !important}}
+.gx-hl{color:#ffffff;font-weight:400}
+@media (max-width: 900px){.gx-grid2{grid-template-columns:minmax(0,1fr) !important}}
+.gx-navtoggle{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.gx-navbtn{display:none}
+@media (max-width: 700px){
+nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
+.gx-navbtn{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;margin-right:-10px;cursor:pointer;border-radius:8px}
+.gx-navbtn span{display:block;width:22px;height:2px;border-radius:1px;background:#ffffff;transition:transform 250ms ease, opacity 200ms ease}
+.gx-navtoggle:focus-visible + .gx-navbtn{outline:2px solid #ffb829;outline-offset:2px}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(2){opacity:0}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.gx-navlinks{display:none !important;position:absolute;top:100%;left:0;right:0;z-index:60;flex-direction:column;align-items:flex-start !important;gap:0 !important;padding:4px 36px 28px;background:#000000;border-bottom:1px solid #1c1c1c;box-shadow:0 24px 40px rgba(0,0,0,0.6)}
+.gx-navlinks a{display:block;padding:14px 0;font-size:15px}
+.gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
+.gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
+}c:T423b,class Component extends DCLogic {
   constructor(props) {
     super(props);
     this.P = ['155,123,255', '255,184,41', '46,196,164', '230,80,190'];
@@ -644,14 +674,14 @@ a:T634d,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
   renderVals() {
     return { setA: this.setA, setB: this.setB, setBoard: this.setBoard };
   }
-}7:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"body{margin:0;background:#000000}\na{color:#9a9a9a;text-decoration:none}\na:hover{color:#ffffff}\n::selection{background:#8052ff;color:#ffffff}\nbutton:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #ffb829;outline-offset:3px}\nsummary{list-style:none;cursor:pointer}\nsummary::-webkit-details-marker{display:none}\ndetails[open] .gx-plus{transform:rotate(45deg)}\ndetails[open] summary .gx-q{color:#ffb829}\nsummary:hover .gx-q{color:#ffb829}\n@media (max-width: 900px){.gx-bg{opacity:0.4}.gx-grid3{grid-template-columns:minmax(0,1fr) !important}}\n@media (min-width: 901px) and (max-width: 1180px){.gx-grid3{grid-template-columns:repeat(2, minmax(0, 1fr)) !important}}\n.gx-hl{color:#ffffff;font-weight:400}\n@media (max-width: 900px){.gx-grid2{grid-template-columns:minmax(0,1fr) !important}}","js":"$b"}],["$Lc"],"$Ld"]}],"p":false,"v":null}}]]
+}7:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"$b","js":"$c"}],["$Ld"],"$Le"]}],"p":false,"v":null}}]]
 5:[["children",{"s":"manifesto","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$6"},"c":"$Q7"}]]
-0:{"P":null,"c":["","manifesto",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":"$L14"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$15",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"bUFEYJFAWm6EcqezcJlvc"}
-16:I[13693,["$2"],"OutletBoundary"]
+0:{"P":null,"c":["","manifesto",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":"$L15"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$16",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"xvtXYV6FtLe6qINUcVn_w"}
+17:I[13693,["$2"],"OutletBoundary"]
 6:C
-c:["$","script","script-0",{"src":"/_next/static/chunks/2vmo25ixizm2q.js","async":true,"nonce":"$undefined"}]
-d:["$","$L16",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
-10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
-18:I[14017,["$2"],"IconMark"]
-14:[["$","title","0",{"children":"Manifesto and FAQ | Gaineo"}],["$","meta","1",{"name":"description","content":"What we believe about revenue, judgment and AI, and answers to the questions revenue leaders ask us."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L18","3",{}]]
-17:null
+d:["$","script","script-0",{"src":"/_next/static/chunks/2xp91zv-mruc8.js","async":true,"nonce":"$undefined"}]
+e:["$","$L17",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
+19:I[14017,["$2"],"IconMark"]
+15:[["$","title","0",{"children":"Manifesto and FAQ | Gaineo"}],["$","meta","1",{"name":"description","content":"What we believe about revenue, judgment and AI, and answers to the questions revenue leaders ask us."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L19","3",{}]]
+18:null
