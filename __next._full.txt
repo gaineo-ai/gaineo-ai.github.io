@@ -303,7 +303,7 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
 .gx-navlinks a{display:block;padding:14px 0;font-size:15px}
 .gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
 .gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
-}a:Te1d0,class Component extends DCLogic {
+}a:Te539,class Component extends DCLogic {
   constructor(props) {
     super(props);
     this.T = {
@@ -594,14 +594,24 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
     this.raf = requestAnimationFrame(loop);
   }
 
+  // Progress follows each chapter's text, not its box: a chapter animates in as its text enters
+  // from the bottom and is complete once the text is centred. Chapter i is complete at p = i + 1.
   scrollTarget() {
     const el = this.stepsEl;
     if (!el) return 0;
     const vh = window.innerHeight || 800;
+    const phone = (window.innerWidth || 1200) < 700;
+    // Phones: the visual is pinned above the text, so a chapter completes as its headline reaches
+    // the reading area just below the visual.
+    const enter = vh * (phone ? 0.98 : 0.92), mid = vh * 0.5;
     let sum = 0;
     for (let i = 0; i < el.children.length; i++) {
-      const b = el.children[i].getBoundingClientRect();
-      sum += this.clamp((vh * 0.6 - b.top) / Math.max(1, b.height));
+      const step = el.children[i];
+      const a = step.firstElementChild, z = step.lastElementChild;
+      if (!a || !z) continue;
+      const top = a.getBoundingClientRect().top, bot = z.getBoundingClientRect().bottom;
+      const span = phone ? enter - vh * 0.52 : enter - mid + (bot - top) / 2;
+      sum += this.clamp((enter - top) / Math.max(1, span));
     }
     return sum;
   }
@@ -1497,10 +1507,12 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
         lx += 28 + ctx.measureText(nm).width;
       });
     }
-    const ch = p < 0.03 || p > 7.97 ? -1 : Math.min(7, Math.floor(p));
+    // The chapter being read: the one whose text is entering or centred.
+    const tb = this.stepsEl ? this.stepsEl.getBoundingClientRect().bottom : 1e9;
+    const ch = p < 0.03 || tb < vh * 0.35 ? -1 : Math.max(0, Math.min(7, Math.round(p) - 1));
     if (ch !== this.state.ch) this.setState({ ch: ch });
     const names = ['THE REVENUE PUZZLE', 'THE SHAPE OF YOUR BUSINESS', 'A THOUSAND PATHS', 'JUDGMENT & ACTION', 'FORMATION', 'THE LANDING', 'YOURS', 'THE TEAM'];
-    const idx = Math.max(0, Math.min(7, Math.floor(p)));
+    const idx = Math.max(0, Math.min(7, Math.round(p) - 1));
     ctx.font = '600 ' + (this.T.labelSize + 1) + 'px ' + this.T.font;
     ctx.textBaseline = 'middle';
     ctx.fillStyle = this.ink(0.85);
@@ -1539,7 +1551,7 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
     };
   }
 }5:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$L7",null,{"html":"$8","css":"$9","js":"$a"}],["$Lb"],"$Lc"]}],"p":false,"v":null}}]]
-0:{"P":null,"c":["",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Le",null,{"children":"$Lf"}],["$","$L11",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":"$L13"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$14",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"xvtXYV6FtLe6qINUcVn_w"}
+0:{"P":null,"c":["",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Le",null,{"children":"$Lf"}],["$","$L11",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":"$L13"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$14",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"E49n-zxQ07A4eIN1DxYH3"}
 15:I[13693,["$2"],"OutletBoundary"]
 b:["$","script","script-0",{"src":"/_next/static/chunks/2xp91zv-mruc8.js","async":true,"nonce":"$undefined"}]
 c:["$","$L15",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
