@@ -13,7 +13,7 @@
 :HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
 6:X
-a:T81d7,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+a:T81f9,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
 
   <!-- NAV -->
   <header>
@@ -42,7 +42,7 @@ a:T81d7,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
       <span></span>
       <div style="display: flex; gap: 22px">
         <button type="button" data-dc-on="click:skip" data-dc-style="display: {{skipDisplay}}; background: transparent; border: none; color: #ffffff; font: inherit; letter-spacing: 0.06em; padding: 12px 0; cursor: pointer; min-height: 44px">Skip →</button>
-        <button type="button" data-dc-on="click:togglePlay" style="background: transparent; border: none; color: #ffb829; font: inherit; letter-spacing: 0.06em; padding: 12px 0; cursor: pointer; min-height: 44px" data-dc-text="playLabel"></button>
+        <button type="button" data-dc-on="click:togglePlay" data-dc-style="display: {{playDisplay}}; background: transparent; border: none; color: #ffb829; font: inherit; letter-spacing: 0.06em; padding: 12px 0; cursor: pointer; min-height: 44px" data-dc-text="playLabel"></button>
       </div>
     </div>
 
@@ -304,7 +304,7 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
 .gx-navlinks a{display:block;padding:14px 0;font-size:15px}
 .gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
 .gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
-}c:Te539,class Component extends DCLogic {
+}c:Te6ab,class Component extends DCLogic {
   constructor(props) {
     super(props);
     this.T = {
@@ -344,7 +344,7 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
       if (this.paused) { this.accum += now - this.pauseAt; this.paused = false; this.setState({ paused: false }); }
       this.t0 = this.hnow(now) - this.TL.OUT;
     };
-    this.onResize = () => { this.hero.W = 0; this.jour.W = 0; };
+    this.onResize = () => { this.hero.W = 0; this.jour.W = 0; this.setState({}); };
   }
 
   componentDidMount() {
@@ -523,14 +523,16 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
     const W = b.width, H = b.height;
     if (mode === 'hero') {
       const narrow = W < 760;
+      // Small phones: lift the landed formation a little so it clears the headline below it.
+      const up = narrow && W < 400 ? H * 0.05 : 0;
       c.g = {
         W, H, narrow,
         // Phones: the dashboard sits below the opening question; the closing formation sits above the headline.
         reg: narrow ? { x: W * 0.06, y: H * 0.45, w: W * 0.88, h: H * 0.4 } : { x: W * 0.08, y: H * 0.07, w: W * 0.84, h: H * 0.45 },
-        cx: narrow ? W * 0.3 : W * 0.25, cy: narrow ? H * 0.185 : H * 0.27,
+        cx: narrow ? W * 0.3 : W * 0.25, cy: narrow ? H * 0.185 - up : H * 0.27,
         R: Math.min(W, H) * (narrow ? 0.12 : 0.145),
-        dx: narrow ? W * 0.9 : W * 0.86, dy: narrow ? H * 0.185 : H * 0.27,
-        qTop: H * (narrow ? 0.1 : 0.07), qBot: H * (narrow ? 0.28 : 0.5),
+        dx: narrow ? W * 0.9 : W * 0.86, dy: narrow ? H * 0.185 - up : H * 0.27,
+        qTop: H * (narrow ? 0.1 : 0.07) - up, qBot: H * (narrow ? 0.28 : 0.5) - up,
         gx: W * 0.02, lx: 18, ly: 22
       };
     } else if (this.T.layout === 'bg' && W >= 900) {
@@ -1530,6 +1532,8 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
       togglePlay: this.togglePlay,
       playLabel: this.state.beat >= 8 ? this.PL[2] : this.state.paused ? this.PL[1] : this.PL[0],
       skip: this.skip,
+      // Phones: no Replay once the hero has landed (Pause stays while it plays).
+      playDisplay: this.state.beat >= 8 && (window.innerWidth || 1200) < 700 ? 'none' : 'inline-block',
       c1: this.state.clip >= 1 ? 1 : 0, c2: this.state.clip >= 2 ? 1 : 0, c3: this.state.clip >= 3 ? 1 : 0,
       c1y: this.state.clip >= 1 ? 0 : 18, c2y: this.state.clip >= 2 ? 0 : 18, c3y: this.state.clip >= 3 ? 0 : 18,
       oq: this.state.q,
@@ -1552,7 +1556,7 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
     };
   }
 }7:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"$b","js":"$c"}],["$Ld"],"$Le"]}],"p":"$@f","v":null,"s":"$6"}}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gaineo: land the quarter you planned"}],["$","meta","1",{"name":"description","content":"Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L15","3",{}]]}]}],null]}],null]}],"p":"$@16","v":null,"s":"$6"}},"a":"$@17","u":"$@18","b":"E49n-zxQ07A4eIN1DxYH3"}
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gaineo: land the quarter you planned"}],["$","meta","1",{"name":"description","content":"Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L15","3",{}]]}]}],null]}],null]}],"p":"$@16","v":null,"s":"$6"}},"a":"$@17","u":"$@18","b":"6pOZ2PRd7p-xaMQbOCM7R"}
 19:I[13693,["$2"],"OutletBoundary"]
 d:["$","script","script-0",{"src":"/_next/static/chunks/2xp91zv-mruc8.js","async":true}]
 e:["$","$L19",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
