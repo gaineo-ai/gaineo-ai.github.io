@@ -13,7 +13,7 @@ f:"ViewportBoundary"
 :HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
 6:X
-a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+a:T80e1,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
 
   <!-- NAV -->
   <header>
@@ -33,7 +33,7 @@ a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
   </header>
 
   <!-- HERO: the lived moment, then the promise -->
-  <section id="top" aria-label="Introduction" style="position: relative; height: min(max(720px, calc(100vh - 92px)), 1080px); overflow: hidden">
+  <section id="top" aria-label="Introduction" style="position: relative; height: max(720px, calc(100vh - 92px)); overflow: hidden">
     <canvas data-dc-ref="setHero" aria-hidden="true" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block"></canvas>
 
     <div style="position: absolute; left: 0; right: 0; top: 0; max-width: 1280px; margin: 0 auto; padding: 8px 36px 0; display: flex; justify-content: space-between; align-items: center; gap: 18px; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a; z-index: 3">
@@ -153,7 +153,7 @@ a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
     <div style="position: relative; z-index: 1; margin-top: -100vh; max-width: 1280px; margin-left: auto; margin-right: auto; padding: 0 36px; box-sizing: border-box">
       <div id="thesis" data-dc-ref="setSteps" style="max-width: 500px; padding: 0 0 160px">
 
-        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">01 · The revenue puzzle</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Your revenue puzzle is complex. What solves it?</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">The pipeline tool. The forecast playing catch-up.<br>The deal reports. A weekly spreadsheet tracking expansion or risk. Some AI sprinkled on top.</p>
@@ -162,28 +162,28 @@ a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
           <a href="/manifesto/" style="display: inline-block; margin-top: 24px; pointer-events: auto; color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Our manifesto →</a>
         </div>
 
-        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">02 · The shape of your business</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Your business has a shape. Gaineo learns all of it.</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Pipeline behavior, buying signals, segment nuances, engagement patterns, pricing and concessions, competitive plays and winning moves. How they move together is wisdom that shapes real outcomes.<br><br>Gaineo's pattern intelligence models that wisdom from your company's precedents, at a perceptive depth none of your revenue tools ever reached.</p>
           <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">This AI does more than tasks.<br>It understands your whole revenue puzzle.</p>
         </div>
 
-        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">03 · A thousand paths</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">A thousand paths to land the quarter.</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">For years, every quarter has been worked by adding it up deal by deal, with the human relay racing against the clock to close the gaps.<br><br>Gaineo optimizes every deal's health and wealth, and continually simulates how the portfolio is primed for the quarter, across every objective and every altitude.</p>
           <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">Don't just estimate your quarter.<br>See every path to a safe landing.</p>
         </div>
 
-        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">04 · Judgment &amp; Action</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Your best judgment acts, along the lit path.</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">No more chasing paths that won't add up by quarter-end. Gaineo monitors revenue execution risks as the quarter moves, surfacing options to people who decide direction.<br><br>The art of closing deals stays with your people. Human attention and judgment are focused where they critically matter, every day.</p>
           <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">Most AI waits for your prompt.<br>Gaineo prompts you, for timely action.</p>
         </div>
 
-        <div style="min-height: 820px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(820px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">05 · Formation</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Every function, flying in formation.</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Every function has its own objective, and in a hard quarter they pull against each other. The discount that wins the deal costs the margin. The push for speed costs the terms. Gaineo weighs those trade-offs against the portfolio's goals, so every seat flies the same course.</p>
@@ -209,14 +209,14 @@ a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
           <a href="/platform/#capabilities" style="display: inline-block; margin-top: 24px; pointer-events: auto; color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">See what each team gets →</a>
         </div>
 
-        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">06 · The landing</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">The quarter you planned, landed.</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Your plan is run every day, not rescued at the end. Every revenue motion is understood as part of the whole, so the gap never builds into a quarter-end crisis. Revenue and margin land together, as planned.</p>
           <p style="margin: 28px 0 0; font-size: 22px; line-height: 1.3; font-weight: 400; letter-spacing: -0.02em; max-width: 460px">No more save plays.<br>Just a controlled landing, every quarter.</p>
         </div>
 
-        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">07 · Yours</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">And it gets even wiser.</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Every approval, override, course correction and outcome becomes a decision asset that belongs to your company.<br><br>Quarter by quarter, Gaineo sees patterns across accounts, products and even time that no one person could ever hold in view, revealing true hidden revenue potential.</p>
@@ -224,7 +224,7 @@ a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
           <a href="/platform/" style="display: inline-block; margin-top: 24px; pointer-events: auto; color: #ffffff; font-size: 14px; letter-spacing: 0.025em; text-transform: uppercase">Explore the platform →</a>
         </div>
 
-        <div style="min-height: 760px; padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
+        <div style="min-height: max(760px, 100vh); padding-top: 200px; box-sizing: border-box; text-shadow: 0 0 18px #000000, 0 0 4px #000000">
           <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">08 · The team</div>
           <h2 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(34px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -0.035em">Built by experts.</h2>
           <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.5; font-weight: 300; color: #bdbdbd; max-width: 460px">Our collective human expertise spans the revenue lifecycle: sales, deal management, pricing, planning and forecasting, driving attainment, and financial reporting compliance. We ran RevOps, and felt <span style="white-space: nowrap">cross-functional</span> pains firsthand. We get it.<br><br>We are clear-eyed about AI and its true promise, and we often look beyond the ordinary hype to focus on building true innovation. We are fortunate to be advised by leaders with a remarkable cross-industry view of the revenue technology landscape.</p>
@@ -1499,7 +1499,7 @@ a:T808e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
     };
   }
 }7:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L9",null,{"html":"$a","css":"body{margin:0;background:#000000}\na{color:#9a9a9a;text-decoration:none}\na:hover{color:#ffffff}\n::selection{background:#8052ff;color:#ffffff}\nbutton:focus-visible,a:focus-visible{outline:2px solid #ffb829;outline-offset:3px}\n@media (max-width: 900px){.gx-bg{opacity:0.45}}\n@media (max-width: 1000px){.gx-clips{display:none !important}}\n@media (max-width: 1360px){.gx-chapters{display:none}}\n/* wide screens: the closing line stays on one line, and extra space above it and under the opener drops it below the news clips */\n@media (min-width: 1400px){.gx-one{white-space:nowrap}.gx-qhead{margin-bottom:70px !important}.gx-lose{margin-top:62px !important}}","js":"$b"}],["$Lc"],"$Ld"]}],"p":"$@e","v":null,"s":"$6"}}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gaineo: land the quarter you planned"}],["$","meta","1",{"name":"description","content":"Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L14","3",{}]]}]}],null]}],null]}],"p":"$@15","v":null,"s":"$6"}},"a":"$@16","u":"$@17","b":"z7XyRtciMSkIxKRgBB_g2"}
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3727-02i72m06.js","async":true}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gaineo: land the quarter you planned"}],["$","meta","1",{"name":"description","content":"Gaineo's AI learns how your company wins, so every revenue leader can land their plan, every quarter."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L14","3",{}]]}]}],null]}],null]}],"p":"$@15","v":null,"s":"$6"}},"a":"$@16","u":"$@17","b":"bUFEYJFAWm6EcqezcJlvc"}
 18:I[13693,["$2"],"OutletBoundary"]
 c:["$","script","script-0",{"src":"/_next/static/chunks/2vmo25ixizm2q.js","async":true}]
 d:["$","$L18",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
