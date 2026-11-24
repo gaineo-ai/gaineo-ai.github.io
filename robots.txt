@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://www.gaineo.ai
+Sitemap: https://www.gaineo.ai/sitemap.xml
