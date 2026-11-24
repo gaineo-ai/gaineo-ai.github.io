@@ -1,0 +1,170 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2_za5ja_g5itw.js"
+3:I[88926,["$2"],"default"]
+4:I[97820,["$2"],"default"]
+5:I[24050,["$2"],"default"]
+9:"/_next/static/chunks/14ez4j_c6y2y7.js"
+a:I[90973,["$2","$9"],"default"]
+f:"ViewportBoundary"
+10:I[45623,["$2"],"$f"]
+12:"MetadataBoundary"
+13:I[45623,["$2"],"$12"]
+14:"$Sreact.suspense"
+16:I[17873,["$2"],"default",1]
+:HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
+7:X
+b:T5327,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+  <header>
+    <nav aria-label="Main" style="max-width: 1280px; margin: 0 auto; padding: 24px 36px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px">
+      <a href="/" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
+        <img src="/assets/brand-logo.png" alt="Gaineo" width="97" height="32" style="display: block">
+      </a>
+      <input type="checkbox" id="gx-nav" class="gx-navtoggle" aria-label="Menu">
+      <label for="gx-nav" class="gx-navbtn" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="gx-navlinks" style="display: flex; flex-wrap: wrap; align-items: center; gap: 30px; font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase">
+        <a href="/">Home</a>
+        <a href="/platform/">Platform</a>
+        <a href="/manifesto/">Manifesto</a>
+        <a href="/manifesto/#faq">FAQ</a>
+        <a href="/blog/">Blog</a>
+        <a href="/company/">Company</a>
+        <a href="#invite" style="background: #8052ff; color: #ffffff; padding: 14px 20px; border-radius: 24px">Get in touch</a>
+      </div>
+    </nav>
+  </header>
+  <main id="top" aria-label="Privacy policy" style="max-width: 1280px; margin: 0 auto; padding: 140px 36px 120px; box-sizing: border-box">
+    <div style="max-width: 760px">
+      <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase; color: #ffb829">Legal</div>
+      <h1 style="margin: 24px 0 0; font-weight: 400; font-size: clamp(46px, 6vw, 88px); line-height: 1.0; letter-spacing: -0.045em">Privacy policy</h1>
+      <p style="margin: 28px 0 0; font-size: 14px; font-weight: 300; color: #6f6f6f">Last updated November 24, 2026</p>
+      <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">This policy explains how Gaineo ("Gaineo," "we," "us" or "our") collects, uses and shares personal information through our website at www.gaineo.ai, our sales and evaluation conversations, our events and the other ways we interact with you. It does not cover data that our customers process in the Gaineo platform, which our agreements with them govern, except as described in "Customer data in the Gaineo platform."</p>
+      <nav aria-label="Contents" style="margin-top: 40px; padding: 24px 28px; border: 1px solid #222222; border-radius: 14px; background: #070707">
+        <div style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">Contents</div>
+        <ol style="margin: 8px 0 0; padding-left: 22px; font-size: 15px; line-height: 1.5; font-weight: 300; color: #9a9a9a"><li style="margin-top: 8px"><a href="#s1">Updates to this policy</a></li><li style="margin-top: 8px"><a href="#s2">Personal information we collect</a></li><li style="margin-top: 8px"><a href="#s3">How we use personal information</a></li><li style="margin-top: 8px"><a href="#s4">Customer data in the Gaineo platform</a></li><li style="margin-top: 8px"><a href="#s5">How we share personal information</a></li><li style="margin-top: 8px"><a href="#s6">Your choices and rights</a></li><li style="margin-top: 8px"><a href="#s7">How long we keep information</a></li><li style="margin-top: 8px"><a href="#s8">Security</a></li><li style="margin-top: 8px"><a href="#s9">International transfers</a></li><li style="margin-top: 8px"><a href="#s10">Children</a></li><li style="margin-top: 8px"><a href="#s11">Contact us</a></li></ol>
+      </nav>
+      <section id="s1" aria-labelledby="s1h" style="scroll-margin-top: 24px">
+        <h2 id="s1h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">1. Updates to this policy</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">We may update this policy as our services change. When we do, we will post the new version on this page and change the date at the top. If a change is significant, we will take reasonable steps to let you know, for example by email if we have yours.</p>
+      </section>
+      <section id="s2" aria-labelledby="s2h" style="scroll-margin-top: 24px">
+        <h2 id="s2h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">2. Personal information we collect</h2>
+        <h3 style="margin: 32px 0 0; font-weight: 600; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">Information you give us</h3>
+        <ul style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd; padding-left: 22px"><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Get in touch form.</strong> Your first and last name, work email, company, and, if you choose to add them, your role, your revenue system of record and your message.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Email and conversations.</strong> What you send to <a href="mailto:info@gaineo.ai?subject=Privacy%20request" style="color: #ffb829">info@gaineo.ai</a> or share with us in calls and meetings.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Backtests and evaluations.</strong> If your company evaluates Gaineo, the business contact details of the people involved, and any data your company provides under a written agreement with us (see "Customer data in the Gaineo platform" below).</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Events.</strong> Contact details you share with us at conferences, meetups and other events.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Job applications.</strong> The information in your application, such as your contact details and resume.</li></ul>
+        <h3 style="margin: 32px 0 0; font-weight: 600; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">Information collected automatically</h3>
+        <ul style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd; padding-left: 22px"><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Server logs.</strong> Our website is hosted by GitHub Pages, which records standard technical information when you visit, such as your IP address, browser type, the page requested and the time of the request.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Fonts.</strong> Our pages load fonts from Google Fonts, so your browser shares its IP address and browser details with Google when a page loads.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Usage and device information.</strong> We use web analytics to understand how visitors find and use our website, such as the pages you view, how long you stay, the site that referred you, your browser and device type, and your approximate location derived from your IP address.</li></ul>
+        <h3 style="margin: 32px 0 0; font-weight: 600; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">Cookies and similar technologies</h3>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">Our analytics provider may use cookies, which are small text files stored in your browser, or similar technologies to recognize repeat visits and measure how the site is used. We use this information in aggregate to improve our website and content. We do not use advertising cookies or tracking pixels, and we do not use analytics data to show you ads on other sites. Where the law requires your consent before cookies are set, we will ask for it first. See "Your choices and rights" for how to control cookies.</p>
+        <h3 style="margin: 32px 0 0; font-weight: 600; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #9a9a9a">Information from other sources</h3>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">We may receive business contact information from publicly available professional sources such as LinkedIn, from people who introduce us, and from partners and event organizers.</p>
+      </section>
+      <section id="s3" aria-labelledby="s3h" style="scroll-margin-top: 24px">
+        <h2 id="s3h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">3. How we use personal information</h2>
+        <ul style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd; padding-left: 22px"><li style="margin-top: 10px">To respond to your inquiry and arrange conversations, demos and backtests.</li><li style="margin-top: 10px">To evaluate whether Gaineo is a fit for your company and to provide the services you or your company ask for.</li><li style="margin-top: 10px">To send you updates about Gaineo that we think are relevant. You can opt out at any time.</li><li style="margin-top: 10px">To operate, maintain and secure our website and services, and to prevent fraud and abuse.</li><li style="margin-top: 10px">To understand how our website is used and to improve it and our content.</li><li style="margin-top: 10px">To review job applications.</li><li style="margin-top: 10px">To comply with legal obligations and enforce our agreements.</li><li style="margin-top: 10px">To create de-identified or aggregated information that does not identify you.</li></ul>
+      </section>
+      <section id="s4" aria-labelledby="s4h" style="scroll-margin-top: 24px">
+        <h2 id="s4h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">4. Customer data in the Gaineo platform</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">When a company uses the Gaineo platform, including during a trial or backtest, it may provide revenue data from systems such as its CRM and CPQ tools. That data can include information about the company's employees, customers and prospects. We process it on the company's behalf, as its service provider, under our agreement with that company, and that agreement governs how the data is handled. If you have questions about data a company has shared with us, please contact that company first.</p>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">We use a customer's data only to provide and support the services for that customer. Models trained on a customer's data serve that customer only. We do not use one customer's data to train models for other customers, and we do not sell customer data.</p>
+      </section>
+      <section id="s5" aria-labelledby="s5h" style="scroll-margin-top: 24px">
+        <h2 id="s5h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">5. How we share personal information</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">We share personal information only as described below.</p>
+        <ul style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd; padding-left: 22px"><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Service providers</strong> that work on our behalf under contracts that limit how they may use the information, including HubSpot (customer relationship management and the Get in touch form), GitHub (website hosting), Google (web fonts, email and productivity tools), our website analytics provider, and the cloud and AI providers that run the Gaineo platform.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Professional advisers</strong> such as lawyers, accountants and auditors.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Legal and safety.</strong> When we believe in good faith that disclosure is required by law or legal process, or is needed to protect the rights, property or safety of Gaineo, our customers or others.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Business transfers.</strong> In connection with a merger, acquisition, financing or sale of assets, subject to standard confidentiality protections.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">With your direction or consent.</strong></li></ul>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">We do not sell personal information, and we do not share it for cross-context behavioral advertising.</p>
+      </section>
+      <section id="s6" aria-labelledby="s6h" style="scroll-margin-top: 24px">
+        <h2 id="s6h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">6. Your choices and rights</h2>
+        <ul style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd; padding-left: 22px"><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Marketing email.</strong> Use the unsubscribe link in any marketing email, or write to us, and we will stop sending them. We may still send messages about services you use.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Access, correction and deletion.</strong> You can ask for a copy of the personal information we hold about you, or ask us to correct or delete it, by writing to <a href="mailto:info@gaineo.ai?subject=Privacy%20request" style="color: #ffb829">info@gaineo.ai</a>. We will verify the request and respond within the time the law requires, and in any case within 45 days.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">California residents</strong> have the right to know what personal information we collect, use and disclose, to request its deletion or correction, and to opt out of its sale or sharing (we do not sell or share it). We will not discriminate against you for exercising these rights. You may use an authorized agent to make a request on your behalf.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">People in the European Economic Area, the United Kingdom and Switzerland</strong> may also object to or restrict certain processing, and may request a portable copy of their information. We rely on our legitimate interests in responding to inquiries and growing our business, on performing a contract, on legal obligations and, where needed, on your consent, which you can withdraw at any time. You may also complain to your local data protection authority.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Cookies.</strong> You can block or delete cookies in your browser settings, and you can use browser extensions that block analytics. Our website works without analytics cookies. Settings apply per browser and per device.</li><li style="margin-top: 10px"><strong style="font-weight: 500; color: #ffffff">Browser signals.</strong> We treat a Global Privacy Control signal as a request to opt out of the sale or sharing of personal information where the law requires it. We do not sell or share personal information in any case. We do not respond to Do Not Track signals, because there is no common standard for them.</li></ul>
+      </section>
+      <section id="s7" aria-labelledby="s7h" style="scroll-margin-top: 24px">
+        <h2 id="s7h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">7. How long we keep information</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">We keep personal information only as long as we need it for the purposes above. Inquiry and contact records are kept while there is an active or potential business relationship, and we delete or de-identify records that have had no activity for 24 months. Website analytics data is kept for no more than 14 months. Customer data in the Gaineo platform is kept and deleted as set out in the customer's agreement. We may keep information longer where the law requires it.</p>
+      </section>
+      <section id="s8" aria-labelledby="s8h" style="scroll-margin-top: 24px">
+        <h2 id="s8h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">8. Security</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">We use administrative, technical and physical safeguards designed to protect personal information, including encryption in transit and access limited to the people who need it. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+      </section>
+      <section id="s9" aria-labelledby="s9h" style="scroll-margin-top: 24px">
+        <h2 id="s9h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">9. International transfers</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">Gaineo is based in the United States, and we and our service providers store and process information in the United States. If you are outside the United States, your information will be transferred there, where data protection laws may differ from those where you live. Where required, we use appropriate safeguards, such as standard contractual clauses, for these transfers.</p>
+      </section>
+      <section id="s10" aria-labelledby="s10h" style="scroll-margin-top: 24px">
+        <h2 id="s10h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">10. Children</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">Our website and services are for businesses and are not directed to children under 16. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
+      </section>
+      <section id="s11" aria-labelledby="s11h" style="scroll-margin-top: 24px">
+        <h2 id="s11h" style="margin: 64px 0 0; font-weight: 400; font-size: clamp(26px, 2.6vw, 32px); line-height: 1.2; letter-spacing: -0.025em; color: #ffffff">11. Contact us</h2>
+        <p style="margin: 18px 0 0; font-size: 17px; line-height: 1.65; font-weight: 300; color: #bdbdbd">If you have questions about this policy or want to make a request, write to <a href="mailto:info@gaineo.ai?subject=Privacy%20request" style="color: #ffb829">info@gaineo.ai</a> or to Gaineo, 548 Market St, San Francisco, CA 94104.</p>
+      </section>
+    </div>
+  </main>
+  <footer style="background: #0b0b0d; border-top: 1px solid #1c1c1c; padding-top: 56px">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 40px 36px 48px; box-sizing: border-box">
+      <div style="font-weight: 400; font-size: clamp(56px, 9vw, 140px); line-height: 0.9; letter-spacing: -0.045em">Gain, with <span style="color: #8052ff">Gaineo.</span></div>
+      <div style="margin-top: 96px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; font-size: 14px; color: #9a9a9a">
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; font-weight: 600; font-size: 13px; letter-spacing: 0.025em; text-transform: uppercase">
+          <a href="/">Home</a>
+          <a href="/platform/">Platform</a>
+          <a href="/manifesto/">Manifesto</a>
+          <a href="/manifesto/#faq">FAQ</a>
+          <a href="/blog/">Blog</a>
+          <a href="/company/">Company</a>
+        </div>
+        <div style="font-weight: 300">548 Market St, San Francisco CA 94104 · <a href="mailto:info@gaineo.ai" style="color: #ffb829">info@gaineo.ai</a></div>
+      </div>
+      <div style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #1c1c1c; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 13px; color: #6a6a6a">
+        <a href="/" style="display: flex; line-height: 1"><img src="/assets/brand-logo.png" alt="Gaineo home" width="79" height="26" style="display: block"></a>
+        <span>© 2026 Gaineo. All rights reserved.<a href="/privacy/" style="margin-left: 18px">Privacy policy</a></span>
+      </div>
+    </div>
+  </footer>
+</div>c:Tc7a,body{margin:0;background:#000000}
+a{color:#9a9a9a;text-decoration:none}
+a:hover{color:#ffffff}
+::selection{background:#8052ff;color:#ffffff}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #ffb829;outline-offset:3px}
+summary{list-style:none;cursor:pointer}
+summary::-webkit-details-marker{display:none}
+details[open] .gx-plus{transform:rotate(45deg)}
+details[open] summary .gx-q{color:#ffb829}
+summary:hover .gx-q{color:#ffb829}
+@media (max-width: 900px){.gx-bg{opacity:0.4}.gx-grid3{grid-template-columns:minmax(0,1fr) !important}}
+@media (min-width: 901px) and (max-width: 1180px){.gx-grid3{grid-template-columns:repeat(2, minmax(0, 1fr)) !important}}
+.gx-hl{color:#ffffff;font-weight:400}
+@media (max-width: 900px){.gx-grid2{grid-template-columns:minmax(0,1fr) !important}}
+.gx-layer{transition:opacity 700ms ease, transform 700ms cubic-bezier(0.22,1,0.36,1)}
+.gx-tab{transition:color 250ms ease, border-color 250ms ease, background 250ms ease}
+.gx-tab:hover{color:#ffffff !important}
+.gx-card{transition:border-color 250ms ease, transform 250ms ease}
+.gx-card:hover{border-color:#3a3a3a !important;transform:translateY(-2px)}
+@media (max-width: 900px){.gx-layerrow{grid-template-columns:minmax(0,1fr) !important}.gx-rail{display:none}.gx-stackpad{padding-left:0 !important}}
+.gx-real{opacity:0;transition:opacity 450ms ease}
+.gx-ph:hover .gx-real{opacity:1}
+.gx-rc{transition:transform 700ms cubic-bezier(0.22,1,0.36,1), opacity 450ms ease;backface-visibility:hidden}
+@media (max-width: 700px){.gx-pp{grid-template-columns:minmax(0,1fr) !important;gap:18px !important;padding:22px !important;align-content:start}.gx-stage{height:1110px !important}.gx-tn{display:none}.gx-rp{width:110px !important;height:138px !important;min-height:138px !important}.gx-rc{left:0 !important;right:58px !important}.gx-rarrows{right:0 !important}}
+.gx-navtoggle{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.gx-navbtn{display:none}
+@media (max-width: 700px){
+nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
+.gx-navbtn{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;margin-right:-10px;cursor:pointer;border-radius:8px}
+.gx-navbtn span{display:block;width:22px;height:2px;border-radius:1px;background:#ffffff;transition:transform 250ms ease, opacity 200ms ease}
+.gx-navtoggle:focus-visible + .gx-navbtn{outline:2px solid #ffb829;outline-offset:2px}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(2){opacity:0}
+.gx-navtoggle:checked + .gx-navbtn span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.gx-navlinks{display:none !important;position:absolute;top:100%;left:0;right:0;z-index:60;flex-direction:column;align-items:flex-start !important;gap:0 !important;padding:4px 36px 28px;background:#000000;border-bottom:1px solid #1c1c1c;box-shadow:0 24px 40px rgba(0,0,0,0.6)}
+.gx-navlinks a{display:block;padding:14px 0;font-size:15px}
+.gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
+.gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
+}8:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$La",null,{"html":"$b","css":"$c","js":"class Component extends DCLogic{renderVals(){return{}}}"}],["$Ld"],"$Le"]}],"p":false,"v":null}}]]
+6:[["children",{"s":"privacy","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$7"},"c":"$Q8"}]]
+0:{"P":null,"c":["","privacy",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2_za5ja_g5itw.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L5",null,{}]]}]]}]]}],"p":false,"v":null},"c":"$Q6"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":"$L15"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$16",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"eWcVcKx22v2WIkcjdH2Sm"}
+17:I[45623,["$2"],"OutletBoundary"]
+7:C
+d:["$","script","script-0",{"src":"/_next/static/chunks/14ez4j_c6y2y7.js","async":true,"nonce":"$undefined"}]
+e:["$","$L17",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
+19:I[95323,["$2"],"IconMark"]
+15:[["$","title","0",{"children":"Privacy policy | Gaineo"}],["$","meta","1",{"name":"description","content":"How Gaineo collects, uses and protects personal information."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L19","3",{}]]
+18:null
