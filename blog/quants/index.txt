@@ -1,19 +1,20 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/3czsct_hk1yt2.js"
+2:"/_next/static/chunks/0i5t791v0316g.js"
 3:I[88926,["$2"],"default"]
 4:I[97820,["$2"],"default"]
-9:"/_next/static/chunks/14ez4j_c6y2y7.js"
-a:I[90973,["$2","$9"],"default"]
-f:"ViewportBoundary"
-10:I[45623,["$2"],"$f"]
-12:"MetadataBoundary"
-13:I[45623,["$2"],"$12"]
-14:"$Sreact.suspense"
-16:I[17873,["$2"],"default",1]
+5:I[24050,["$2"],"default"]
+a:"/_next/static/chunks/14ez4j_c6y2y7.js"
+b:I[90973,["$2","$a"],"default"]
+10:"ViewportBoundary"
+11:I[45623,["$2"],"$10"]
+13:"MetadataBoundary"
+14:I[45623,["$2"],"$13"]
+15:"$Sreact.suspense"
+17:I[17873,["$2"],"default",1]
 :HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
-6:X
-b:T14880,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+7:X
+c:T14880,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
   <header>
     <nav aria-label="Main" style="max-width: 1280px; margin: 0 auto; padding: 24px 36px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px">
       <a href="/" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
@@ -125,9 +126,9 @@ b:T14880,<div style="background: #000000; color: #ffffff; font-family: 'Onest', 
       </div>
     </div>
   </footer>
-</div>17:I[45623,["$2"],"OutletBoundary"]
-19:I[95323,["$2"],"IconMark"]
-c:Tc08,body{margin:0;background:#000000}
+</div>18:I[45623,["$2"],"OutletBoundary"]
+1a:I[95323,["$2"],"IconMark"]
+d:Tc08,body{margin:0;background:#000000}
 a{color:#9a9a9a;text-decoration:none}
 a:hover{color:#ffffff}
 ::selection{background:#8052ff;color:#ffffff}
@@ -163,13 +164,13 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
 .gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
 .gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
 }
-.gx-share a,.gx-share button{color:#bdbdbd;background:none;border:0;padding:10px 0;margin:0;font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer;align-items:center;gap:6px}.gx-share a:hover,.gx-share button:hover{color:#ffffff}8:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$La",null,{"html":"$b","css":"$c","js":"class Component extends DCLogic{constructor(t){super(t),this.state={native:!1,copied:!1},this.url=\"https://www.gaineo.ai/blog/quants/\",this.title=\"We are not your stockbroker. We are your quants.\",this.copyLink=()=>{navigator.clipboard&&navigator.clipboard.writeText(this.url).then(()=>{this.setState({copied:!0}),clearTimeout(this._t),this._t=setTimeout(()=>this.setState({copied:!1}),2e3)},()=>{})},this.nativeShare=()=>{navigator.share&&navigator.share({title:this.title,url:this.url}).catch(()=>{})}}componentDidMount(){navigator.share&&window.matchMedia&&window.matchMedia(\"(pointer: coarse)\").matches&&this.setState({native:!0})}renderVals(){const t=this.state.native;return{copyLink:this.copyLink,nativeShare:this.nativeShare,copyLabel:this.state.copied?\"Link copied\":\"Copy link\",wideDisp:t?\"none\":\"inline-flex\",nativeDisp:t?\"inline-flex\":\"none\"}}}"}],["$Ld"],"$Le"]}],"p":false,"v":null}}]]
-7:[["children",{"s":"quants","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$6"},"c":"$Q8"}]]
-5:[["children",{"s":"blog","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$6"},"c":"$Q7"}]]
-0:{"P":null,"c":["","blog","quants",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3czsct_hk1yt2.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],"p":false,"v":null},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":"$L15"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$16",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"JtHAh8gHwAHcCtztlvJl3"}
-6:C
-d:["$","script","script-0",{"src":"/_next/static/chunks/14ez4j_c6y2y7.js","async":true,"nonce":"$undefined"}]
-e:["$","$L17",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
-11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
-15:[["$","title","0",{"children":"We are not your stockbroker. We are your quants. | Gaineo"}],["$","meta","1",{"name":"description","content":"Systems of record tell you where you stand. A system of optimization tells you where you could stand, and the odds of getting there."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L19","3",{}]]
-18:null
+.gx-share a,.gx-share button{color:#bdbdbd;background:none;border:0;padding:10px 0;margin:0;font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer;align-items:center;gap:6px}.gx-share a:hover,.gx-share button:hover{color:#ffffff}9:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$Lb",null,{"html":"$c","css":"$d","js":"class Component extends DCLogic{constructor(t){super(t),this.state={native:!1,copied:!1},this.url=\"https://www.gaineo.ai/blog/quants/\",this.title=\"We are not your stockbroker. We are your quants.\",this.copyLink=()=>{navigator.clipboard&&navigator.clipboard.writeText(this.url).then(()=>{this.setState({copied:!0}),clearTimeout(this._t),this._t=setTimeout(()=>this.setState({copied:!1}),2e3)},()=>{})},this.nativeShare=()=>{navigator.share&&navigator.share({title:this.title,url:this.url}).catch(()=>{})}}componentDidMount(){navigator.share&&window.matchMedia&&window.matchMedia(\"(pointer: coarse)\").matches&&this.setState({native:!0})}renderVals(){const t=this.state.native;return{copyLink:this.copyLink,nativeShare:this.nativeShare,copyLabel:this.state.copied?\"Link copied\":\"Copy link\",wideDisp:t?\"none\":\"inline-flex\",nativeDisp:t?\"inline-flex\":\"none\"}}}"}],["$Le"],"$Lf"]}],"p":false,"v":null}}]]
+8:[["children",{"s":"quants","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$7"},"c":"$Q9"}]]
+6:[["children",{"s":"blog","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$7"},"c":"$Q8"}]]
+0:{"P":null,"c":["","blog","quants",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0i5t791v0316g.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L5",null,{}]]}]]}]]}],"p":false,"v":null},"c":"$Q6"},"h":{"r":["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":"$L16"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$17",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"ixgB9evaRQ5DeX7puLuRS"}
+7:C
+e:["$","script","script-0",{"src":"/_next/static/chunks/14ez4j_c6y2y7.js","async":true,"nonce":"$undefined"}]
+f:["$","$L18",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
+16:[["$","title","0",{"children":"We are not your stockbroker. We are your quants. | Gaineo"}],["$","meta","1",{"name":"description","content":"Systems of record tell you where you stand. A system of optimization tells you where you could stand, and the odds of getting there."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L1a","3",{}]]
+19:null
