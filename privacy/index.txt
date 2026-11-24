@@ -1,21 +1,22 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/1n1idnxpyr_i6.js"
+2:"/_next/static/chunks/3czsct_hk1yt2.js"
 3:I[88926,["$2"],"default"]
 4:I[97820,["$2"],"default"]
-5:I[24050,["$2"],"default"]
-6:I[64115,["$2"],"default"]
-a:"/_next/static/chunks/14ez4j_c6y2y7.js"
-b:I[90973,["$2","$a"],"default"]
-10:"ViewportBoundary"
-11:I[45623,["$2"],"$10"]
-13:"MetadataBoundary"
-14:I[45623,["$2"],"$13"]
-15:"$Sreact.suspense"
-17:I[17873,["$2"],"default",1]
+5:"/_next/static/chunks/2fgq-8virzixb.js"
+6:I[24050,["$5"],"default"]
+7:I[64115,["$5"],"default"]
+b:"/_next/static/chunks/14ez4j_c6y2y7.js"
+c:I[90973,["$5","$b"],"default"]
+11:"ViewportBoundary"
+12:I[45623,["$2"],"$11"]
+14:"MetadataBoundary"
+15:I[45623,["$2"],"$14"]
+16:"$Sreact.suspense"
+18:I[17873,["$5"],"default",1]
 :HL["/_next/static/chunks/0vhdv0a6iv5o1.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap","style"]
-8:X
-c:T575e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
+9:X
+d:T575e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', system-ui, sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; min-height: 100%">
   <header>
     <nav aria-label="Main" style="max-width: 1280px; margin: 0 auto; padding: 24px 36px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px">
       <a href="/" style="display: flex; align-items: flex-start; gap: 2px; line-height: 1; color: #ffffff; font-size: 20px; letter-spacing: -0.02em">
@@ -121,7 +122,7 @@ c:T575e,<div style="background: #000000; color: #ffffff; font-family: 'Onest', s
       </div>
     </div>
   </footer>
-</div>d:Tc7a,body{margin:0;background:#000000}
+</div>e:Tc7a,body{margin:0;background:#000000}
 a{color:#9a9a9a;text-decoration:none}
 a:hover{color:#ffffff}
 ::selection{background:#8052ff;color:#ffffff}
@@ -159,14 +160,14 @@ nav[aria-label="Main"]{position:relative;flex-wrap:nowrap !important}
 .gx-navlinks a{display:block;padding:14px 0;font-size:15px}
 .gx-navlinks a:last-child{margin-top:12px;padding:15px 22px !important}
 .gx-navtoggle:checked ~ .gx-navlinks{display:flex !important}
-}9:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$Lb",null,{"html":"$c","css":"$d","js":"class Component extends DCLogic{renderVals(){return{}}}"}],["$Le"],"$Lf"]}],"p":false,"v":null}}]]
-7:[["children",{"s":"privacy","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$8"},"c":"$Q9"}]]
-0:{"P":null,"c":["","privacy",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/1n1idnxpyr_i6.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L5",null,{}],["$","$L6",null,{}]]}]]}]]}],"p":false,"v":null},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":"$L16"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$17",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"cC0y-9kavsdIbCL4OlOq6"}
-18:I[45623,["$2"],"OutletBoundary"]
-8:C
-e:["$","script","script-0",{"src":"/_next/static/chunks/14ez4j_c6y2y7.js","async":true,"nonce":"$undefined"}]
-f:["$","$L18",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
-12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
-1a:I[95323,["$2"],"IconMark"]
-16:[["$","title","0",{"children":"Privacy policy | Gaineo"}],["$","meta","1",{"name":"description","content":"How Gaineo collects, uses and protects personal information."}],["$","link","2",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L1a","3",{}]]
-19:null
+}a:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$Lc",null,{"html":"$d","css":"$e","js":"class Component extends DCLogic{renderVals(){return{}}}"}],["$Lf"],"$L10"]}],"p":false,"v":null}}]]
+8:[["children",{"s":"privacy","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$9"},"c":"$Qa"}]]
+0:{"P":null,"c":["","privacy",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2fgq-8virzixb.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":""}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Onest:wght@200..700&display=swap"}]]}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}],["$","$L7",null,{}]]}]]}]]}],"p":false,"v":null},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L12",null,{"children":"$L13"}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$16",null,{"name":"Next.Metadata","children":"$L17"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$18",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0vhdv0a6iv5o1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"wZJWSHUSou0bdnmB3LPUk"}
+19:I[45623,["$2"],"OutletBoundary"]
+9:C
+f:["$","script","script-0",{"src":"/_next/static/chunks/14ez4j_c6y2y7.js","async":true,"nonce":"$undefined"}]
+10:["$","$L19",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
+13:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#000000"}]]
+1b:I[95323,["$2"],"IconMark"]
+17:[["$","title","0",{"children":"Privacy policy | Gaineo"}],["$","meta","1",{"name":"description","content":"How Gaineo collects, uses and protects personal information."}],["$","link","2",{"rel":"canonical","href":"https://www.gaineo.ai/privacy/"}],["$","meta","3",{"property":"og:title","content":"Privacy policy"}],["$","meta","4",{"property":"og:description","content":"How Gaineo collects, uses and protects personal information."}],["$","meta","5",{"property":"og:url","content":"https://www.gaineo.ai/privacy/"}],["$","meta","6",{"property":"og:site_name","content":"Gaineo"}],["$","meta","7",{"property":"og:locale","content":"en_US"}],["$","meta","8",{"property":"og:image","content":"https://www.gaineo.ai/privacy/opengraph-image.png?59faaf26eb324651"}],["$","meta","9",{"property":"og:image:type","content":"image/png"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"Privacy policy"}],["$","meta","13",{"property":"og:type","content":"website"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:title","content":"Privacy policy"}],["$","meta","16",{"name":"twitter:description","content":"How Gaineo collects, uses and protects personal information."}],["$","meta","17",{"name":"twitter:image","content":"https://www.gaineo.ai/privacy/opengraph-image.png?59faaf26eb324651"}],["$","meta","18",{"name":"twitter:image:alt","content":"Privacy policy"}],["$","meta","19",{"name":"twitter:image:type","content":"image/png"}],["$","meta","20",{"name":"twitter:image:width","content":"1200"}],["$","meta","21",{"name":"twitter:image:height","content":"630"}],["$","link","22",{"rel":"icon","href":"/assets/favicon.png"}],["$","$L1b","23",{}]]
+1a:null
